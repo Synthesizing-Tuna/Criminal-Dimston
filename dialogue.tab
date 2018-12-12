@@ -1,0 +1,831 @@
+Identifier	Character	Dialogue	Filename	Line Number
+splashscreen_0bd11d3b	centered	'Хуяк-хуяк и в продакшн' представляют...	game/code/1day.rpy	3
+start_daf67bc9	dp10	Я не собираюсь разговаривать с анонимами!{w} Дайте мне ваш паспорт и паспорт вашей мамы для того, чтобы я вас не счёл анонимом.	game/code/1day.rpy	18
+start_39081c07	dp10	Честно говоря я не очень понимаю, что за блоггеры или блогеры.{w} В первый раз об этом слышу, ну нам с ними нам точно не по пути.{w} Если вас волнует оскорбления есть на всё суд там уже во время суда всё решается.	game/code/1day.rpy	20
+start_a76077ad	dp10	Я не собираюсь дальше заниматься вопросом о том как и кто зарабатывает и кто от кого не зависим.{w} Я по сути мужик который пришёл в другой паблик и поверил видеозаписи содержащие статистические данные на то что деструктивных блоггеров.	game/code/1day.rpy	22
+start_0fccaa60	dp10	По идеи это достаточно серьёзная цифра если она фигурирует на 'витринах' видеохостингов, либо ещё где-то.{w} Так вот. ТЫ СО МНОЙ ИЛИ В КОЛЬСКУЮ СВЕРХГЛУБОКУЮ?	game/code/1day.rpy	24
+nottoday_674965a0		ГДЕ Я?!	game/code/1day.rpy	37
+nottoday_36e544d6		???	game/code/1day.rpy	39
+nottoday_87410673		А, бля, столовка КИТа.{w} Но что это был за сон?{w} И хули я тут вырубился вообще???	game/code/1day.rpy	44
+nottoday_2f6885f9	anon	Макароны, сука, спиздили, киты ебанные!	game/code/1day.rpy	45
+nottoday_bfae86c0	snkw	Я не поняла!	game/code/1day.rpy	46
+nottoday_8ff97d91	snkw	Я не поняла, кто это гадости говорит? Ты, мразь такая?	game/code/1day.rpy	51
+nottoday_b488f596	anon	Нет, не я!	game/code/1day.rpy	52
+nottoday_bbe8fbb4	snkw	Я слышала, что это ты, киник такой! Говори номер родителей, живо! Или пойдёшь к директору!	game/code/1day.rpy	53
+parents_aa19fde3	anon	+79814881337	game/code/1day.rpy	79
+parents_3eb4e2e9	anon	+79813371488	game/code/1day.rpy	81
+parents_82d9e212	snkw	Хорошо, я сегодня им позвоню, ты будешь отчислен, мразь!	game/code/1day.rpy	82
+parents_38f56106	anon	Хорошо, Екатерина Николаевна.	game/code/1day.rpy	83
+parents_e770d34b		Пойду в БК, что. Пока она не поняла, что я дал фейковый номер.	game/code/1day.rpy	85
+parents_344e34ac		Пойду в БК, всё равно мне дома пизда теперь.	game/code/1day.rpy	87
+parents_5f9d6bf7		Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь?	game/code/1day.rpy	91
+parents_cbcda7c2	kit	Ебучая гардеробщица.	game/code/1day.rpy	92
+parents_29e0707a	kit	Слушай, что-то мне хреново становится...	game/code/1day.rpy	93
+parents_7d6d29c3	kit	Да мне что-то тоже.	game/code/1day.rpy	94
+parents_07835eb3		Ну наконец-то она пришла. Блять, ещё бошка заболела что-то.	game/code/1day.rpy	95
+snkw_df99683a	anon	А можно рассказать синквейн?	game/code/1day.rpy	100
+snkw_7d855bd5	snkw	Вообще чтоли страх потерял? Хотя, расскажи, прямо с ходу, на тему Философии! Хе-хе.	game/code/1day.rpy	101
+snkw_0c10b415	anon	Эээээээ, щас.	game/code/1day.rpy	102
+snkw_fc910ec3	anon	Cложное, правильное, мудрое	game/code/1day.rpy	103
+snkw_851656c2	anon	Думать, размышлять, знать	game/code/1day.rpy	104
+snkw_28260dad	anon	Философия - есть наука о познании жизни человека.	game/code/1day.rpy	105
+snkw_4922f122	anon	Познание.	game/code/1day.rpy	106
+snkw_ba7f8d40	snkw	Ну ничего себе ты молодец! На первый раз тебя прощаю. Но с тебя спрошу 80 философов, учти!	game/code/1day.rpy	108
+snkw_420e2552	anon	Спасибо, Екатерина Николаевна! До свидания!	game/code/1day.rpy	110
+snkw_870a3fbe	snkw	До Свидания!	game/code/1day.rpy	111
+snkw_ef64415b		Ебать пронесло. Аж не ожидал, что расскажу с ходу синквейн. Кодить не умею, зато синквейны составляю по-мастерски.	game/code/1day.rpy	113
+snkw_547ccdc7		Пойду в БК, что. Делать нечего, на паре она меня спросит про этих философов. А так скажу, что плохо стало.	game/code/1day.rpy	114
+snkw_5f9d6bf7		Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь?	game/code/1day.rpy	118
+snkw_cbcda7c2	kit	Ебучая гардеробщица.	game/code/1day.rpy	119
+snkw_ffaf5606	kit	Чувак, тебе после столовки не хуёво случаем? А то мне да.	game/code/1day.rpy	120
+snkw_98e52f39	kit	Да...	game/code/1day.rpy	121
+snkw_602d9d23		Ну наконец-то она пришла.	game/code/1day.rpy	122
+runbitch_ff672dd7	snkw	Стой, киник!	game/code/1day.rpy	131
+runbitch_422762b5		БЛЯТЬ, Я УПАЛ, СУКА, СКОРЕЕ ПОДНИМАТЬСЯ!	game/code/1day.rpy	136
+runbitch_d9aaf167	snkw	Попался!	game/code/1day.rpy	140
+runbitch_6191af40		Сука, что сейчас будет...	game/code/1day.rpy	141
+runbitch_8791f3b9	snkw	Пойдём к директору, мразь такая!	game/code/1day.rpy	142
+runbitch_0dcc59ee	snkw	Киник, мразь, залупоглаз, ублюдок, сволочь, тварь. Разве я заслужила такое отношение ко мне с твоей стороны?!	game/code/1day.rpy	143
+runbitch_39efffa6	anon	А можно договориться?	game/code/1day.rpy	146
+runbitch_e62c51eb	snkw	80 философов назови!	game/code/1day.rpy	147
+runbitch_fc7cec82	snkw	Можешь же, когда хочешь! Свободен, но на зачёте спрошу!	game/code/1day.rpy	153
+runbitch_ab65552f	anon	Спасибо!	game/code/1day.rpy	154
+runbitch_28318557		Ебать пронесло. Аж не ожидал, что расскажу так с ходу философов.	game/code/1day.rpy	159
+runbitch_b71d0aa1		Пойду в БК, что. А то пересрался уже от Захарки.	game/code/1day.rpy	160
+runbitch_23103898		Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь? Бошка ещё болит.	game/code/1day.rpy	162
+runbitch_cbcda7c2	kit	Ебучая гардеробщица.	game/code/1day.rpy	163
+runbitch_602d9d23		Ну наконец-то она пришла.	game/code/1day.rpy	164
+runbitch_4f49dceb	snkw	Вообще офонарел не знать философов??? {w}Какой Александр Македонский? Пошли к директору!	game/code/1day.rpy	170
+runbitch_5d2e323c	anon	Но можно я потом их сдам, честно!	game/code/1day.rpy	171
+runbitch_5ae1a737	snkw	Тогда я тебя хорошо спрошу глоссарий. Не сдашь - будешь в кабинете у директора, на отчисление!	game/code/1day.rpy	172
+runbitch_5e7d8150	anon	Хорошо...	game/code/1day.rpy	173
+runbitch_92e4e416		Ебать пронесло. Но надо учить этих сраных философов	game/code/1day.rpy	179
+runbitch_ceda10e6		Пойду в БК нахуй.	game/code/1day.rpy	180
+runbitch_23103898_1		Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь? Бошка ещё болит.	game/code/1day.rpy	182
+runbitch_cbcda7c2_1	kit	Ебучая гардеробщица.	game/code/1day.rpy	183
+runbitch_602d9d23_1		Ну наконец-то она пришла.	game/code/1day.rpy	184
+runbitch_6418cc7b	anon	Нет, я передумал.	game/code/1day.rpy	190
+runbitch_4d16a982	snkw	Пошёл к директору, залупоглаз!	game/code/1day.rpy	191
+runbitch_8aee7c4c		Мне пизда.	game/code/1day.rpy	192
+snkwdown_dd3f8481	anon	Смотрите, кто-то уронил сборник синквейнов!	game/code/1day.rpy	197
+snkwdown_3f6974a0	snkw	Где!? Убью к чертям! Покаж… А ну быстро вернулся, тварь такая!	game/code/1day.rpy	199
+snkwdown_408ab7a5		БЕЖАТЬ, СКОРЕЕ БЕЖАТЬ В БК. БЛЯТЬ, У НЕЁ МОЯ ПАРА СЕГОДНЯ!	game/code/1day.rpy	202
+snkwdown_422762b5		БЛЯТЬ, Я УПАЛ, СУКА, СКОРЕЕ ПОДНИМАТЬСЯ!	game/code/1day.rpy	208
+snkwdown_93548f84		Да тут и очередь же пиздец! Сука, ебучая гардеробщица! Таак, надо слиться с толпой, чтобы захарка меня не нашла. Хоть тут КИТ играет за меня.	game/code/1day.rpy	209
+snkwdown_6c2b4826	snkw	Никто не видел тут одну мразь?	game/code/1day.rpy	210
+snkwdown_956c68c0		Блять! Хоть бы никто не спалил!	game/code/1day.rpy	212
+snkwdown_c361d635	kits	Вы про кого вообще говорите?	game/code/1day.rpy	213
+snkwdown_a2f54296	snkw	Ах вы мрази, подонки, вы должны знать, где скрывается [anon]! Я вам устрою! Но сначала найду эту сволочь!	game/code/1day.rpy	214
+snkwdown_4268b7e9		Что. Это. Было. У неё же спросили только кого она искала. Ебанулась уже со своими синквейнами. Или тем, что у неё мудл взломали. Блин, весёлая была реакция.	game/code/1day.rpy	217
+snkwdown_9dd75e82	snkw	МРАЗИ! ТВАРИ!	game/code/1day.rpy	220
+snkwdown_2764a041	snkw	ПЛАНШЕТ ВЗЛОМАЛИ, МУДЛ ВЗОРВАЛИ! ЩА ПОПРОШУ ФОМИНА ВЫЧИСЛИТЬ, ОТЧИСЛЮ!	game/code/1day.rpy	222
+snkwdown_ded51a51	kit	Что это была за хуйня?	game/code/1day.rpy	225
+snkwdown_b4beb02b	kit	Хуй знает, это же Захарова. А кого она искала там?	game/code/1day.rpy	226
+snkwdown_58f8a57d	kit	Вообще не ебу. Тут столько людей прошло, да и поебать как-то.	game/code/1day.rpy	227
+snkwdown_a1028266	kit	Слушай, мне чот хуёво становится после столовки...	game/code/1day.rpy	228
+snkwdown_3d9a83cd		Ёбанный в рот, даже не верю, что пронесло. Так, надо бы куртку взять. Сука, да где она нахуй?!	game/code/1day.rpy	229
+snkwdown_7b3500b8		Ещё голова разболелась с этим трешаком всем.	game/code/1day.rpy	230
+kitout_029fb612	centered	Спустя 30 минут	game/code/1day.rpy	237
+kitout_b2c91a04		Наконец-то получил куртку, сука. Почему эта бабка так позволяет относиться к своей работе? Это был её выбор. А мой был – поступить сюда… Поступил бля, научился кодить. Синквейны в голове.	game/code/1day.rpy	240
+kitout_e1a5e9a4		Всё таки я не понимаю, почему у меня после сна такое похмельное состояние, как будто ебашил до этого неделю. Похоже, я переутомился.	game/code/1day.rpy	241
+kitout_9a3327e1		Пидор дирик сука. Как же он уже заебал ставить свою помойку на тротуаре. Просто пиздец.	game/code/1day.rpy	245
+kitout_c27b1a3e		Погода была очень пасмурной - типичная осень в Петербурге, даже уже снег выпадал. Мимо меня проезжали машины. Почти прохожу забор КИТа, как вижу...	game/code/1day.rpy	247
+kitout_9e7e5446		Кек лол ДИДЕРБОЛ. Интересно, за сколько закрасят эту надпись?	game/code/1day.rpy	249
+kitout_6794b13d		Что-то быстро испортилась погода, надо скорее идти в БК, дабы не попасть под дождь.	game/code/1day.rpy	250
+kitout_9e4df42b		Дорога до БК была недолгой и совершенно лишённой приключений, кроме...	game/code/1day.rpy	251
+kitout_8c0553d0		Так а что он тут всё таки делает? Неужели решил отчислить пару китят, которые сидят в бк? Как он так быстро доехал?	game/code/1day.rpy	253
+kitout_64cd7737		Что вообще сегодня происходит? То сон с каким-то ДП-10, то очень внезапная злая Захарка, то теперь дирик в БК. Вспышки на Солнце?	game/code/1day.rpy	254
+kitout_3db2a67d		В любом случае, надо поесть, макароны-то спиздили.	game/code/1day.rpy	255
+bk_b0252a4f		Ох, наконец-то родной БК. Закажу-ка я как обычно.	game/code/1day.rpy	263
+bk_5dfcb788	bk	О, привет, [anon]!	game/code/1day.rpy	264
+bk_9e959110	anon	Здорова, мне как обычно, обед с 2 вопперами.	game/code/1day.rpy	265
+bk_78358ec2	bk	Без проблем, ща сделаем, с тебя 300 рублей. Гыйбать нах.	game/code/1day.rpy	266
+bk_c7abe1d0	anon	Что ты сказал последнее?	game/code/1day.rpy	267
+bk_07d8ce2d		Мне послышалось?	game/code/1day.rpy	268
+bk_f9b0fe46	bk	С тебя 300 рублей, братан. Ты чего?	game/code/1day.rpy	269
+bk_52d2da15	anon	Да ничего, просто бошка болит уже от кита	game/code/1day.rpy	270
+bk_d12b713e		Похоже показалось, но что-то сегодня мне всё кажется.	game/code/1day.rpy	271
+bk_190d0e82	bk	Как платить будешь-то?	game/code/1day.rpy	272
+bk_b4531ea7	anon	А можно расплатиться картой?	game/code/1day.rpy	278
+bk_0c22899d	bk	Нет, сорян, карты не принимаем.	game/code/1day.rpy	279
+bk_bcf83c4b	anon	Подержи тогда заказ, пусть пока готовится. Я сейчас вернусь, вы же меня знаете.	game/code/1day.rpy	280
+bk_33984ef9	bk	Без проблем, приходи только скорее, а то сегодня директор не самый добрый, какая-то баба новая.	game/code/1day.rpy	281
+bk_2cb172a2	anon	Я мигом.	game/code/1day.rpy	282
+bk_0e1c09b3		Блять, в Сбер идти. Сука, я ебал. Что же такое происходит? Что за трешак за день.	game/code/1day.rpy	283
+bk_bbe7374e		ЕБАТЬ СУКА НАХУЙ. Главное не спалиться, снять только деньги.	game/code/1day.rpy	287
+bk_f5b3e3db	pidor	...Значит так, девушка, я хочу на свой вклад положить 400 тысяч рублей. Мы тут недавно ремонт намутили, сдачу девать в наличных некуда - дома все банки заполнил с подушками, нужно уже потихоньку их скидывать мне на свой счет, незаметно главное. Это возможно? Если в течении 5 лет ежемесячно пополнять счет буду?	game/code/1day.rpy	289
+bk_1a60a621		Что за? Вот дирик пидор, пиздит ежемесячно минимум 400К	game/code/1day.rpy	290
+bk_6151b921	sber	А вы собираетесь снимать деньги со счёта?	game/code/1day.rpy	294
+bk_24315ba0	pidor	Нет, только пополнять... Подождите пожалуйста..	game/code/1day.rpy	295
+bk_842d8dec	pidor	Подслушиваешь? Охуел?	game/code/1day.rpy	298
+bk_f96bb1f4	pidor	ТЫ ОТЧИСЛЕН! ТЫ ПОНЯЛ? ОТ-ЧИС-ЛЕН!	game/code/1day.rpy	299
+bk_3d5f74ab	centered	Вы были отчислены за излишнюю любознательность	game/code/1day.rpy	302
+bk_0c329fec	centered	КОНЕЦ ИГРЫ!	game/code/1day.rpy	303
+bk_8281b8e9		Ладно, хрен с ним, сниму деньги и пойду, пока он меня не заметил.	game/code/1day.rpy	307
+bk_170c860b	anon	Я вернулся.	game/code/1day.rpy	311
+bk_681911be	bk	Хорошо, сейчас сделаем, с тебя 334 рубля.	game/code/1day.rpy	312
+bk_172f7574	anon	Вот.	game/code/1day.rpy	313
+bk2_34000410	bk	Заказ будет готов через минуты 3.	game/code/1day.rpy	318
+bk2_78a1eb8c	anon	Спасибо.	game/code/1day.rpy	319
+bk2_88b00f79		Сев за столик, я стал ожидать свой заказ. Погода за окном всё портилась, ближайший дом к Бургер Кингу скрылся в пелене тумана. Типичный Петербург. Хотя нет, что-то необычайно много машин полиции с мигалками.	game/code/1day.rpy	320
+bk2_de9cd0bc		Митинг Нэвэльного? Да вроде нет. Может, накрыли каких-то террористов? Тоже нет, новости бы от этого разрывались.	game/code/1day.rpy	321
+bk2_e4ac7b0b		А бошка продолжает болеть. Ладно, посмотрю пока новости.	game/code/1day.rpy	322
+bk2_6cfdd789	bk	Заказ ДП10 готов!	game/code/1day.rpy	324
+bk2_dc70da58		Чего блять? У меня же В-10. Ну ладно, подойду, чертовщина какая-то.	game/code/1day.rpy	326
+bk2_d25ed076		И это был мой заказ, как нистранно. Что меня так глючит-то после сна?	game/code/1day.rpy	327
+bk2_e6783404		Ебать, кто-то звонит. Отвечу чтоли. Чозанах.	game/code/1day.rpy	329
+bk2_4e7027df	anon	Алло.	game/code/1day.rpy	330
+bk2_80773673	snkw	Здравствуйте, меня зовут Екатерина Николаевна и я преподаватель философии в Санкт-Петербургском колледже Информационных технологий. Мне не нравится поведение Ваше...	game/code/1day.rpy	331
+bk2_58e35b59		Ну нахуй это слушать. Сброшу нахуй.	game/code/1day.rpy	332
+bk2_0abda3c8		Оп, а теперь СМС пришла.	game/code/1day.rpy	333
+bk2_ec6a9251		Ебать, СМС пришла. Прочту.	game/code/1day.rpy	336
+back2kit_ef5c4e68		{#l}{color=#000}Привет! Тебе надо явиться в кит!{/color}	game/code/1day.rpy	343
+back2kit_90d58aca		{#r}{color=#FFF}Это ещё зачем?{/color}	game/code/1day.rpy	344
+back2kit_80946f8b		{#l}{color=#000}Нет времени объяснять, надо!{/color}	game/code/1day.rpy	345
+back2kit_e8a6b52b		Что за чертощина?	game/code/1day.rpy	346
+back2kit_976bb4a7		Ебать, что же за хуйня в КИТе, что аж мне написали? Пойду посмотрю ради прикола.	game/code/1day.rpy	350
+back2kit_ec5c8a1b		До сих пор угараю с этой хуйни.	game/code/1day.rpy	354
+back2kit_aaaccee1		Он опять в КИТе? Да что за чертовщина?!	game/code/1day.rpy	356
+back2kit_29e27a71		Не буду сдавать одежду в гардероб, пойду так.	game/code/1day.rpy	359
+back2kit_673e502c	general	Э! Не пущу в одежде и без сменки!	game/code/1day.rpy	362
+back2kit_1173d77c	anon	Ну пожалуста, товарищ Гвардии Майор!	game/code/1day.rpy	367
+back2kit_3078d72d	general	Э! Шагом марш в гардероб!	game/code/1day.rpy	368
+back2kit_e675aaa0	anon	Окей...	game/code/1day.rpy	369
+back2kit_ba5b143c		Да блять, опять стоять очереди в гардеробе.	game/code/1day.rpy	376
+back2kit_cefd0d43		Сука. Пиздец.	game/code/1day.rpy	378
+back2kit_2e06f45a	centered	Спустя 2 минуты	game/code/1day.rpy	380
+back2kit_977124fc		Ебать быстро сдался. Ладно, пойду на пару.	game/code/1day.rpy	382
+back2kit_4cd9f02a		Похер, брошу пятак.	game/code/1day.rpy	389
+back2kit_5cbfbf8f		Так, надену эти бахилы, чтобы Маркович отстал.	game/code/1day.rpy	391
+back2kit_9e11195c		Наебу дирика и брошу жетончик с пидором.	game/code/1day.rpy	395
+back2kit_a1b948f0		Идеальное преступление. А теперь надену эти бахилы, чтобы Маркович отстал.	game/code/1day.rpy	397
+back2kit_5a12ab21	general	Э! Ты куда? А ну-ка стой...	game/code/1day.rpy	402
+back2kit_6b61c001		Ууф, убежал от этого старика. Ладно, сейчас куртку в портфель положу и пойду на пару.	game/code/1day.rpy	406
+nn_3622e7cb		Так, что у нас сейчас? Блять, НН! Опять локалхосты и апачи в ядре винды...	game/code/1day.rpy	411
+nn_9dfd9240	centered	Через некоторое время на паре у НН...	game/code/1day.rpy	414
+nn_7e8393a4	nn	Box2D - это CMS для матриц от компании Microsoft для Visual Studio, которую все ждали!	game/code/1day.rpy	417
+nn_06b47de6		Пиздееееец. Охуеть какая пара... Бошка болит.	game/code/1day.rpy	418
+nn_247fb3c4	zver	Здравстуйте! Мне нужен ваш компьютер!	game/code/1day.rpy	420
+nn_de300456		БЛЯЯЯЯЯТЬ, ТЕБЯ ЗДЕСЬ НЕ ХВАТАЛО, СУКА!	game/code/1day.rpy	421
+nn_4afc0671	nn	Да, конечно, посмотрите, а то не запускается.	game/code/1day.rpy	422
+nn_e1961541		Сука, да там оперативу просто спиздили, пощади, тупая сука! Пиздец же воняет!	game/code/1day.rpy	424
+nn_f5d81a94	nn	Продолжим пару. Открывайте localhost в ядре Windows 7.	game/code/1day.rpy	425
+nn_8754f6cc	anon	Вы меня, конечно, простите, но в ядре винды нет никаких локалхостов! И Box2D - это не CMS для матриц! Господи!	game/code/1day.rpy	430
+nn_bfe5e403	nn	Ты ставишь под сомнение мой профессионализм?	game/code/1day.rpy	431
+nn_74a8f688	anon	Ставлю! Кстати, какой версии у вас Apachе стоит?	game/code/1day.rpy	432
+nn_fb923c49	nn	Я на паре никого не держу, можешь идти на выход!	game/code/1day.rpy	433
+nn_03756488		Надо притушить пукан, а то ещё огребу.	game/code/1day.rpy	440
+nn_c8860131		Ладно, потерплю эту бредятину.	game/code/1day.rpy	444
+nn_ee3898f5		Мда, пара просто класс. И сколько мне сидеть? Ещё час! Сука!	game/code/1day.rpy	445
+nn_2813fb6f	zver	Я у вас этот комплюхтер заберу?	game/code/1day.rpy	447
+nn_ff613ba4	nn	Да, забирайте.	game/code/1day.rpy	448
+nn_1ec648c3		Меня сейчас вырвет.	game/code/1day.rpy	449
+whitenn_0243007c		Какое же пиздатое задание, справился за 15 минут.	game/code/1day.rpy	456
+whitenn_23a42b9b	centered	На перемене.	game/code/1day.rpy	458
+whitenn_bb59de48	nn	Пара закончена. Увидимся на следующей паре. Не забудьте про сайт на ДЗ.	game/code/1day.rpy	460
+whitenn_7a4c2309		Пиздец ебаная пара. Наконец-то она закончилась. Как и все пары в этой шараге.	game/code/1day.rpy	461
+whitenn_0fb78ad7		Надо отсюда валить.	game/code/1day.rpy	462
+whitenn_b0d9d3b2		Сука, ебучие перваки! Нет бы нормально пройти и не выпендриваться!	game/code/1day.rpy	467
+whitenn_39f8218f	anon	Ну что за хуйня?	game/code/1day.rpy	468
+whitenn_5ba26f2d	kit	Да там Маркович поехал, не выпускает вообще.	game/code/1day.rpy	469
+whitenn_cb13c3fb		С чего это... Что с ним такое происходит.	game/code/1day.rpy	470
+whitenn_cc374e45	kits	Ну выпустите! Нам домой надо.	game/code/1day.rpy	472
+whitenn_175a34d8	general	Э! Не выпущу! Пара ещё не кончилась.	game/code/1day.rpy	473
+whitenn_4df81e71	anon	Ну вообще-то кончилась.	game/code/1day.rpy	474
+whitenn_46a03992	general	Э! Ты можешь проходить. Иди давай.	game/code/1day.rpy	476
+whitenn_58aec1ac		Ничего себе поворот.	game/code/1day.rpy	477
+whitenn_78a1eb8c	anon	Спасибо.	game/code/1day.rpy	478
+whitenn_3e715bfa		О, и пустой гардероб. Красота. Не зря тогда похоже послушался Марковича.	game/code/1day.rpy	482
+whitenn_97ff67ec	general	Э! Что, самый умный? Никого не пущу до звонка!	game/code/1day.rpy	485
+whitenn_1d493785		Надо тушить воё сопло, а то хуже будет.	game/code/1day.rpy	489
+whitenn_a75c2dc1	centered	Прошло 15 минут.	game/code/1day.rpy	491
+whitenn_a1fb13ac	general	Э! Я ещё не слышал звонка! Не пущу!	game/code/1day.rpy	494
+whitenn_432c7c70	kit	Трррррррррр	game/code/1day.rpy	496
+whitenn_a319b2dd	kits	О, вот и звонок!	game/code/1day.rpy	499
+whitenn_6e9dac91	general	Э! О, вот теперь звонок. Проходите.	game/code/1day.rpy	500
+whitenn_199007d9		НАКОНЕЦ-ТО. А то уже тут охуеть можно.	game/code/1day.rpy	501
+whitenn_d8786364		А мне ещё дома пизда ждёт. Вообще день говно.	game/code/1day.rpy	503
+whitenn_18765111		Ещё и очередь, ну сука, опять стоять. Что же за день просто?	game/code/1day.rpy	506
+whitenn_5761cb93	centered	Прошло 20 минут.	game/code/1day.rpy	509
+whitenn_dd603aba		Меня разрывает нахуй. Ну берегись!	game/code/1day.rpy	513
+whitenn_445be704	general	ЭЭЭ! СТОЯТЬ!	game/code/1day.rpy	514
+whitenn_48129f24	general	Э! Я КОМУ СКАЗАЛ СТОЯТЬ! ТЫ КУДА...	game/code/1day.rpy	515
+whitenn_fdc29fa0		Заебал уже. И кит заебал пиздос. Валить надо отсюда.	game/code/1day.rpy	516
+whitenn_2a5d6c9f		Надо скорее валить.	game/code/1day.rpy	519
+whitenn_364ab63c		Конечно, пизда меня дома ждёт, но что делать.	game/code/1day.rpy	521
+blacknn_4c542045		Ну нахер всё. Пойду отсюда. Вообще тупая пиздец.	game/code/1day.rpy	526
+blacknn_71312e2a	nn	Ну и уходи.	game/code/1day.rpy	527
+blacknn_446f8707		Пойду по основной лестнице	game/code/1day.rpy	533
+blacknn_aa170526		Ух, пока вроде всё хоро...	game/code/1day.rpy	535
+blacknn_7e45399c	pidor	ПОЧЕМУ НЕ НА ПАРЕ??? ОТВЕЧАЙ!	game/code/1day.rpy	538
+blacknn_88760ef1	anon	Ээээээ...	game/code/1day.rpy	539
+blacknn_e3ef69a4		Ну тебя нахер, пидор, надо пробежать.	game/code/1day.rpy	551
+blacknn_f7dabfda	pidor	Ты куда побежал? Ну-ка быстро вернулся, а то отчил...	game/code/1day.rpy	552
+blacknn_4e11f957		Как будто я это раньше не слышал. Тааак, надо спрятаться.	game/code/1day.rpy	554
+blacknn_081cae44		Так, лучше взять все свои вещи и валить отсюда.	game/code/1day.rpy	556
+blacknn_05aa4e44		Охуенный пустой гардероб. Надо только быстро.	game/code/1day.rpy	558
+blacknn_b52ae178		Отлично, а теперь пора валить.	game/code/1day.rpy	559
+blacknn_6da36605		А зачем прятаться, если у меня нет одежды в гардеробе? Лучше выйду отсюда.	game/code/1day.rpy	562
+blacknn_5f20b85a	anon	Да плохо себя чувствую, вот, отпустили с пары.	game/code/1day.rpy	569
+blacknn_28b3c219	pidor	А что ты тогда не в медпункте???	game/code/1day.rpy	570
+blacknn_80f6b3e3	anon	Потому что туда и шёл, не дошёл, и тут вы.	game/code/1day.rpy	571
+blacknn_b678c3cd	pidor	Ну смотри мне! Пошёл быстро в медкабинет, проверю!	game/code/1day.rpy	572
+blacknn_849a7163	anon	Хорошо.	game/code/1day.rpy	573
+blacknn_1bf5af73		Вот ведь пидор-то, а. Какая ему разница от посещённых пар, если на них говорят хуйню. Ладно, придётся идти в медпункт.	game/code/1day.rpy	574
+blacknn_ed2f4b09		Блин, сидеть ещё тут сколько времени надо будет. Хрен его знает.	game/code/1day.rpy	577
+blacknn_cb043ace	medkit	Какими судьбами, [anon]?	game/code/1day.rpy	578
+blacknn_e6996700	anon	Да, от дирика спрятаться, с пары свалил, с преподом пособачился, а тут он.	game/code/1day.rpy	579
+blacknn_5e925f86	medkit	Так давай помогу. Напишу тебе бумажку, что я тебя домой направила.	game/code/1day.rpy	580
+blacknn_34cdf001	anon	Было бы неплохо.	game/code/1day.rpy	581
+blacknn_362e174e		Какая-то внезапная доброта. Что происходит вообще сегодня?!	game/code/1day.rpy	582
+blacknn_a064d07b	medkit	Готово! На тебе освобождение от пар на этот день. И это. {i}Завтра тоже жетон в бахильник не вставляй{/i}, кое-что узнаешь.	game/code/1day.rpy	584
+blacknn_10ad6e90	medkit	Готово! На тебе освобождение от пар на этот день. И это. {i}В следующий раз вставь в бахильник 5 рублей{/i}. Кое-что узнаешь.	game/code/1day.rpy	586
+blacknn_c450b480		{b}ЧЕГОООООО?{/b}	game/code/1day.rpy	587
+blacknn_532b74c1	anon	Что вы сказали?	game/code/1day.rpy	588
+blacknn_b9f8a98b	medkit	Говорю, иди давай домой, пока пара не кончилась.	game/code/1day.rpy	589
+blacknn_6c2ded09		Что за херота происходит???	game/code/1day.rpy	590
+blacknn_5999bb85		Ладно, пойду в гардероб.	game/code/1day.rpy	592
+blacknn_79a8c199		Когда гардероб пустой - это охуенно.	game/code/1day.rpy	594
+blacknn_40906c27		Ладно, пора на выход.	game/code/1day.rpy	596
+blacknn_207e4fe5		Правда пизда меня дома ждёт, но что делать.	game/code/1day.rpy	598
+blacknn_eda11337	anon	Пошёл ты нахуй, сраный уёбок-коррупционер!	game/code/1day.rpy	604
+blacknn_ed065897	anon	А ещё я знаю, что ты деньги спиздил, которые выделяли шараге на ремонт!	game/code/1day.rpy	606
+blacknn_34709548	pidor	Ах ты мразь! Быстро ко мне в кабинет!	game/code/1day.rpy	607
+blacknn_3e74b035		Он схватил меня за шкирятник!	game/code/1day.rpy	608
+blacknn_72b2d495	pidor	Отчислен нахуй! Вали отсюда, пока полицию не вызвал!	game/code/1day.rpy	611
+blacknn_2f608666	centered	Вы были отчислены за борзость.	game/code/1day.rpy	613
+blacknn_b1167da9		Пойду по пожарной лестнице	game/code/1day.rpy	617
+blacknn_ec643be1	snkw	Таак, кто это у нас? [anon]? Подходи сюда.	game/code/1day.rpy	619
+blacknn_ae902f12	snkw	Я хотела сказать, что ты хороший программист и студент. Но хотелось бы, чтобы ты меньше матерился. А почему ты не на паре?	game/code/1day.rpy	623
+blacknn_06c6db74	anon	Да меня отпустили, уже просто задание всё сделал, вот и иду домой.	game/code/1day.rpy	624
+blacknn_510f2afc	snkw	Молодец! Кстати, на зачёте я тебе пойду навстречу!	game/code/1day.rpy	625
+blacknn_d994a5cd	anon	Отлично.	game/code/1day.rpy	626
+blacknn_28a71296	snkw	До свидания!	game/code/1day.rpy	627
+blacknn_6efcc24b		Внезапно добрая Захарка. Как на неё синквейны действуют, однако.	game/code/1day.rpy	631
+blacknn_9f2c53bb		Ладно, пора домой.	game/code/1day.rpy	632
+blacknn_8df8727f		О, пустой гардероб. Хоть это охуенно. Надо скорее валить	game/code/1day.rpy	635
+blacknn_485f5d89	snkw	Я поговорила с твоими родителями, такие хорошие люди. Не понимаю, как у них может быть такой ребёнок. Они сказали, что проведут с тобой беседу.	game/code/1day.rpy	642
+blacknn_22eb12ee		Пизда мне.	game/code/1day.rpy	643
+blacknn_83abfe59	snkw	И поэтому я тебе решила всё же не услонять сдачу зачёта. Кстати, почему не на паре?	game/code/1day.rpy	644
+blacknn_3065302e		Не усложнит сдачу? С чего это? А вот сейчас надо объяснить, почему ушёл.	game/code/1day.rpy	646
+blacknn_e4122aed	anon	Да плохо себя почувствовал, сейчас иду в медкабинет, отпустят скорее всего.	game/code/1day.rpy	650
+blacknn_06c6db74_1	anon	Да меня отпустили, уже просто задание всё сделал, вот и иду домой.	game/code/1day.rpy	653
+firestairs_7ed6478b	snkw	А если узнаю у преподавателя?	game/code/1day.rpy	662
+firestairs_d45b0485	anon	Можете спросить, даже с вами пойти могу.	game/code/1day.rpy	666
+firestairs_46a24cab	snkw	Ладно, поверю. До свидания.	game/code/1day.rpy	667
+firestairs_e86bd985	anon	До свидания.	game/code/1day.rpy	668
+firestairs_394e1d6b		Ебать только что пиздец был. Ладно.	game/code/1day.rpy	671
+firestairs_11303869		Пора в гардероб.	game/code/1day.rpy	673
+firestairs_33684107		О, пустой гардероб. Хоть это охуенно. Надо скорее валить.	game/code/1day.rpy	675
+firestairs_4b58bd4d		Пора домой.	game/code/1day.rpy	677
+firestairs_ff49c846	anon	Я сбежал с пары.	game/code/1day.rpy	680
+firestairs_391c680b	snkw	Ах ты киник! Ну-ка быстро к директору!	game/code/1day.rpy	684
+firestairs_8aee7c4c		Мне пизда.	game/code/1day.rpy	685
+firestairs_89c7132a	snkw	Валерий Иванович, я вам тут одного киника привела, отчислите его, он ушёл с пары без разрешения!	game/code/1day.rpy	689
+firestairs_0b008986	pidor	С удовольствием отчислю этого студента. Такие нам не нужны.	game/code/1day.rpy	690
+firestairs_7f545473	centered	Спустя 5 минут	game/code/1day.rpy	692
+firestairs_0b44f2a1	pidor	Приказ напечатан, ты ОТЧИСЛЕЕН! Можешь завтра не приходить!	game/code/1day.rpy	696
+firestairs_271e1640	snkw	Иди отсюда, киник! Желаю, чтобы ты сдох от СПИДа.	game/code/1day.rpy	697
+firestairs_03a111db	centered	Вы были отчислены за слабость характера.	game/code/1day.rpy	699
+snkwboom_45591331	snkw	Ты мразь поганая, вообще страх потерял давать чужой номер, вместо номера родителей?	game/code/1day.rpy	708
+snkwboom_131714f9	snkw	Ты подписал себе приговор на зачёте. Я сделаю тебе его намного сложнее. Разговор окончен.	game/code/1day.rpy	709
+snkwboom_550e36a6		Ебать, что это было? Мда, мне будет сложно сдать зачёт.	game/code/1day.rpy	712
+snkwboom_1e35172b		Но да ладно, пойду домой.	game/code/1day.rpy	713
+snkwboom_2d656939		Но сначала в гардероб.	game/code/1day.rpy	715
+snkwboom_33684107		О, пустой гардероб. Хоть это охуенно. Надо скорее валить.	game/code/1day.rpy	717
+metro_cb2026f3		До сих пор дождь? Что за херня такая?.	game/code/1day.rpy	725
+metro_ffd0025f		Надо ещё бы придумать, что сказать родакам о Захарке... Сложно.	game/code/1day.rpy	727
+metro_a1bda3e1		Ладно, мокнуть, так мокнуть.	game/code/1day.rpy	728
+metro_eeba5a74		Но как я вышел, дождь просто прекратился.{w} И что это в небе?	game/code/1day.rpy	732
+metro_208fa1e1		ЧТО.{w} ЗА.{w} ХУЙНЯ.{w}	game/code/1day.rpy	734
+metro_afebf13f		Что за кровавая Луна?{w} Я, конечно, видел по новостям такую дичь, но чтобы прям вживую видеть, ебать пиздец!	game/code/1day.rpy	735
+metro_9de0279a		Ебучая Луна, она что, следит за мной?{w} Почему я её вижу, а всем похуй?	game/code/1day.rpy	737
+metro_6a4c200e		Быстрее в метро!	game/code/1day.rpy	738
+metro_e0a237b2	centered	Спустя 15 минут.	game/code/1day.rpy	741
+metro_469775c7		Ох, я в метро.{w} Сколько там у меня ещё проездной действует?	game/code/1day.rpy	744
+metro_3d3142cd		Отлично, ещё есть 4 дня.	game/code/1day.rpy	745
+metro_695740ac		Так, как раз есть одно мес...{w} БЛЯЯЯЯЯТЬ.	game/code/1day.rpy	746
+metro_a136ec26	snkw	Ну здравствуй ещё раз, [anon].{w} Недолго мы не виделись.	game/code/1day.rpy	749
+metro_2a7124b7		Блять, мне на Захарку прям везёт.	game/code/1day.rpy	750
+metro_fd52ceff	snkw	Ох, я надеюсь, твои родители займутся твоей речью!	game/code/1day.rpy	753
+metro_05d90755	anon	Не напоминайте, я и так сегодня получу, не сомневайтесь.	game/code/1day.rpy	754
+metro_d3551435	snkw	Ну где это было видано, чтобы так материться!	game/code/1day.rpy	755
+metro_55832b77	anon	Я и так расскаиваюсь, отстаньте!	game/code/1day.rpy	756
+metro_4fbea242	snkw	Он мне ещё и рот затыкает! Вот в наше время...	game/code/1day.rpy	757
+metro_2ac99dd9		Началоось.	game/code/1day.rpy	758
+metro_6b78076b	centered	Спустя 30 минут.	game/code/1day.rpy	760
+metro_ec55d811	snkw	...все студенты были философами!	game/code/1day.rpy	762
+metro_1391c5b7		Галдит, сука, 30 минут.{w} Ну хватит.	game/code/1day.rpy	763
+metro_8825fcd5		О, моя остановочка.	game/code/1day.rpy	764
+metro_0f1805d2	anon	До свидания!	game/code/1day.rpy	765
+metro_e52aa987	snkw	...вообще распустились...	game/code/1day.rpy	766
+metro_d048612f		Ебать её припекло.{w} А что бы было, если бы номер родителей не дал?	game/code/1day.rpy	767
+metro_f57c3bf6		Ладно, на выход.	game/code/1day.rpy	768
+metro_0555099e	snkw	Мразь, подонок! Трус!	game/code/1day.rpy	771
+metro_c2912e7d		Начинается...	game/code/1day.rpy	772
+metro_d3551435_1	snkw	Ну где это было видано, чтобы так материться!	game/code/1day.rpy	773
+metro_19ed01df	snkw	Ещё и номер родителей не дал!	game/code/1day.rpy	774
+metro_52ddbb41	snkw	Точно зачёт не сдашь. Заставлю тебя уважать философию!	game/code/1day.rpy	775
+metro_2ac99dd9_1		Началоось.	game/code/1day.rpy	776
+metro_6b78076b_1	centered	Спустя 30 минут.	game/code/1day.rpy	778
+metro_4a6ad7aa	snkw	...Рассказал быстро синкве...	game/code/1day.rpy	780
+metro_1391c5b7_1		Галдит, сука, 30 минут.{w} Ну хватит.	game/code/1day.rpy	781
+metro_8825fcd5_1		О, моя остановочка.	game/code/1day.rpy	782
+metro_0f1805d2_1	anon	До свидания!	game/code/1day.rpy	783
+metro_12783b43	snkw	{b}БЫСТРО РАССКАЗАЛ СИНКВЕЙН!{/b}	game/code/1day.rpy	784
+metro_7ba4181f		На тебя смотрят, тупая ты дура.{w} Оставлю её наедине с вагоном.	game/code/1day.rpy	785
+metro_f57c3bf6_1		Ладно, на выход.	game/code/1day.rpy	786
+metro_c3097afa		Лучше скроюсь от неё, целее буду. Пойду в другой вагон, типо не заметил, как она меня окликнула.	game/code/1day.rpy	788
+metro_6b78076b_2	centered	Спустя 30 минут.	game/code/1day.rpy	791
+metro_91521856	snkw	Мне так нравится этот студент, золото, а не программист.{w} Очень хочется его хорошо выучить.	game/code/1day.rpy	794
+metro_78a1eb8c	anon	Спасибо.	game/code/1day.rpy	795
+metro_1f498c20		Я сейчас умру тут нахуй. За что мне это?	game/code/1day.rpy	796
+metro_3bae3d6e		Как нистранно, дальнейший путь мы провели в тишине, Захарова отдельно, я отдельно. Прямо рай.	game/code/1day.rpy	797
+metro_b848d797		Тут уже должна быть моя остановка.{w} Надо бы встать.	game/code/1day.rpy	798
+metro_3aa877fb	anon	До свидания, Екатерина Николаевна.	game/code/1day.rpy	799
+metro_e4cb0c2c		Не надо с ней отношения сейчас портить, хорошими они стали как-никак, за день всего.	game/code/1day.rpy	800
+metro_935e9e90	snkw	До свидания, удачи, [anon]!	game/code/1day.rpy	801
+home_f787a64b		Платформа была полна людей. Не люблю большие скопления людей.	game/code/1day.rpy	808
+home_9671e4cf		Что за звук в моей голове?	game/code/1day.rpy	810
+home_808f501b	human	{b}ГЫЕБААААТЬ НАААНЯ!{/b}	game/code/1day.rpy	811
+home_fe6e1236		Чего?	game/code/1day.rpy	812
+home_f4253520	human	{b}СЛАВА МОЛОТКАМ ЙБАТЬ НАХ ЙОПТ!{/b}	game/code/1day.rpy	813
+home_19a5a244		Так, что происходит?{w} Что с этим человеком?{w} Ебать, сколько людей на него...{w}	game/code/1day.rpy	814
+home_7a781c9f	anon	{b}ТЫ КУДА ПОБЕЖ...{/b}	game/code/1day.rpy	815
+home_1d92fe76		{b}МАТЬ ТВОЮ, ОН ПОД ПОЕЗД ПРЫГНУЛ!{/b}	game/code/1day.rpy	817
+home_f08d10b6		{b}ЧТО ЗА ДЕНЬ?{/b}	game/code/1day.rpy	818
+home_b0a5b367		{b}БЕЖАТЬ ДОМОЙ!{/b}	game/code/1day.rpy	819
+home_fb8e20b5	centered	Спустя 3 минуты.	game/code/1day.rpy	822
+home_cc6f70df		Сам того не ожидая, я добежал от метро до дома за 3 минуты, хотя обычно я иду минут 15.{w} Ебать стресс.	game/code/1day.rpy	824
+home_cc6459fd		Что было с тем человеком? Что вообще происходит?	game/code/1day.rpy	825
+home_4750ac16	mom	Нам надо поговорить.	game/code/1day.rpy	827
+home_0bb1572e	dad	Сегодня звонила твой преподаватель по философии, говорила, что ты материшься и про неё гадости говоришь.{w} Это правда?	game/code/1day.rpy	828
+home_e8f9e1e5	anon	Не всё, но с матом да, было один раз.	game/code/1day.rpy	829
+home_9162486d	mom	Мы понимаем, что ты совершил ошибку, поступив в колледж, но пусть нам хотя бы не жалуются на твоё поведение!	game/code/1day.rpy	830
+home_fcc7ddbc	anon	Прости, мама. Я вообще тогда заснул в столовой и кошмар приснился.	game/code/1day.rpy	831
+home_243fd84c	dad	Сын, ты уже взрослый человек, делай, как считаешь нужным, но чтобы этот звонок был последний раз!	game/code/1day.rpy	832
+home_34ba86c7	mom	Да. Отвечай за свои поступки.	game/code/1day.rpy	833
+home_e499096f	anon	Шарага так не считает.{w} Ладно, проститие меня, это был последний раз.	game/code/1day.rpy	834
+home_09d6b6e9	mom	Мы принимаем твои извинения. Пошли ужинать.	game/code/1day.rpy	835
+home_4260d218	mom	[anon], пошли ужинать.	game/code/1day.rpy	837
+home_4f904205	anon	Да, иду.	game/code/1day.rpy	838
+home_d0017239		За ужином мы смотрели телевизор.{w} Хотя я ящик смотрел очень редко, но новости меня сейчас привлекли.	game/code/1day.rpy	839
+home_2d0fc3ae	TV	...И К ДРУГИМ НОВОСТЯМ.{w} СЕГОДНЯ НА МЕТРО 'УЛИЦА ДЫБЕНКО' ПРОИЗОШЁЛ ИНЦИДЕНТ С ЧЕЛОВЕКОМ.{w}	game/code/1day.rpy	842
+home_9609a362		По новостям показывают теперь самоубийства? Не знал.{w} Но это самоубийство я видел лично. {w} Меньше 15 минут назад.	game/code/1day.rpy	843
+home_af9daff0		Странная херня.	game/code/1day.rpy	844
+home_f1eaff9b	anon	Я пойду к себе.	game/code/1day.rpy	845
+home_493c0704	mom	Да, хорошо.	game/code/1day.rpy	846
+home_860d789f		Я ушёл в свою комнату и лёг на кровать. Посмотрев на окно, я видел эту чёртову Луну.	game/code/1day.rpy	849
+home_22480763		Ладно, поиграю чтоли.	game/code/1day.rpy	850
+home_c4f7984f		Запустив компьютер, я искал знакомый значок со звездой с пионером внутри.{w} Как раз должен пройти кошкодевочку.	game/code/1day.rpy	852
+home_40fe2d9f	centered	Спустя N часов.	game/code/1day.rpy	854
+home_b5171296		Глаза слипались. Так и не дочитал.	game/code/1day.rpy	856
+home_653ae72b		Надо спать, а то завтра в шарагу не встану, хоть и ко 2 паре.{w} А Луна всё на месте. Ладно, пора спать.	game/code/1day.rpy	857
+home_5199db3b		И я уснул.	game/code/1day.rpy	859
+day3_bd9f74ba	dp10	Есть такое понятие в VK как фальшивый аккаунт. {w}Он используется злоумышленниками ради того, чтобы выманивать из наивных людей деньги, либо по иным случаям.	game/code/3day.rpy	5
+day3_84308e3b	dp10	В данном случае фальшивая страница используется для того,{w} чтобы оскорбить видимо окончательно меня разозлить и ещё сделать ссылку на неуважаемое лицо РФ (которое якобы уважаемое, а на самом деле накрученное для выведения в тренды, а конкретно на витрину видеохостинга).	game/code/3day.rpy	7
+day3_67ee1d4c	anon	Опять, сука, ты?!	game/code/3day.rpy	8
+day3_234fdbb2	dp10	Не лезь в это дело, деструктивщик.{w} Или я подам в полицию заявление, будем разбираться.	game/code/3day.rpy	9
+day3_0297601a	anon	Опять он мне снился! Надо уже прекращать эту хуйню, иначе свихнусь.	game/code/3day.rpy	13
+day3_001ab659	TV	...из-за непонятного тумана и массовых самоубийств в городах РФ и мира вводится режим ЧП.{w} В Петербурге режим ЧП ещё не введён, но власти уже готовы.{w} Всему виной непонятное излучение со стороны Кольского полуострова. Связь с Мурманском была потеряна 15 минут назад...	game/code/3day.rpy	17
+day3_266f6912	anon	Что это происходит? И это после того сна и поиска про скважину эту... Надо идти в кит, разбираться.	game/code/3day.rpy	18
+day3_d26546d7	centered	Спустя 1.5 часа	game/code/3day.rpy	21
+day3_1b3e5622	anon	{b}СТОЙ!{/b}	game/code/3day.rpy	23
+day3_fd14da28	anon	Ты куда побежал, стой!, догоню ведь!	game/code/3day.rpy	25
+day3_11997f4a	general	Э!{w} А ну стой!	game/code/3day.rpy	30
+day3_e3972033	anon	Борис Маркович, забыл про одно поручение преподавателю, мне бежать надо!	game/code/3day.rpy	32
+day3_f1cfd906	general	Ладно, беги. Сменку не забудь!	game/code/3day.rpy	33
+day3_78646be5	anon	Вот у меня бахилы!	game/code/3day.rpy	34
+day3_94a8fe83		Уф, как же хорошо иметь хорошее отношение с Марковичем.	game/code/3day.rpy	37
+day3_554ce6b8		За Пахомом!	game/code/3day.rpy	39
+day3_11e525dd		Ебать этот инвалид бегает как!	game/code/3day.rpy	41
+day3_463000a6	anon	Ну-ка, объясняй, что за херня происходит, почему все гыебатят, плохо себя чувствуют?{w} Чрезвычайное положение в городе?!	game/code/3day.rpy	45
+day3_0e4b5cb0	anon	Почему на сайте про Кольскую Сверхглубокую говорится про партию ДП и тебя?!	game/code/3day.rpy	47
+day3_ee549f40	dp10	Я всё расскажу.{w} Увидимся в посёлку Чаща.	game/code/3day.rpy	48
+day3_07e40d0f	anon	ТЫ КУДА ДЕЛСЯ?{w} КАКАЯ ЧАЩА?	game/code/3day.rpy	51
+day3_1f5760c1		Вот блять. Пиздец.	game/code/3day.rpy	52
+day3_378f79a5		Пойду в столовку, обдумывать. Всё равно ещё полчаса.	game/code/3day.rpy	53
+day3_8d1d3ace	anon	Борис Маркович, пропустите, пожалуйста! {w}Мне бежать надо!	game/code/3day.rpy	56
+day3_d8be6c79	general	Э!{w} Не пущу! До пары ещё 30 минут!	game/code/3day.rpy	57
+day3_d9e8652c		Ебучий старик! Что же, пойду в столовку чтоли.	game/code/3day.rpy	58
+tableday3_ccd7602e		Ох, ну и пиздец. Ёбанный Пахом!	game/code/3day.rpy	64
+tableday3_464cb5dd	kits	Давай я тебе по подробней объясню кровавая Луна и Луна апокалипсиса это разные произведения.{w} Одна никакого отношения ко мне не имеет, другая является произведением ДП-10.	game/code/3day.rpy	66
+tableday3_0cff5ca6	kits	ДП-10 от своей жажды стабильности и стабильности нажил себе врагов.{w} Как ты думаешь, будут ли подделывать доказательства обвиняющие меня в иллюстрировании персонажа фашиста? Естественно да, в целях прославить одного реального человека.	game/code/3day.rpy	67
+tableday3_f65b01f1		ЧТО?!	game/code/3day.rpy	68
+tableday3_78f020bf	kits	Что это было, мать вашу?	game/code/3day.rpy	70
+tableday3_20343b1b	kit	Моя голова...	game/code/3day.rpy	71
+tableday3_e4213f57	kits	Не поддаёмся провокациям, от блоггеров вроде Николая Соболева так как он пойдёт на всё чтобы разузнать точную техническую гос тайну.	game/code/3day.rpy	74
+tableday3_e1e1d30b	kits	Вообще странно чтобы человек который жутко матерился на народ спокойно нашёл себе девушку (ну для диалогов) и не умер от того, что нет близкого человека, который ему смог бы ему помочь.	game/code/3day.rpy	76
+tableday3_42592df8		Так! Опять?! {w} Микроволновка..	game/code/3day.rpy	77
+tableday3_be6fed07	anon	Включите микроволновку, гыйбать!	game/code/3day.rpy	78
+tableday3_7ada99ea	table	Нет, директор придёт и скажет, что тратим электричество! Наня! Гыйбать! Йопт нах!	game/code/3day.rpy	79
+tableday3_44087722	anon	Ну смотрите тогда. Либо вы включаете микроволновку, либо это пойдёт в Роспотребнадзор.	game/code/3day.rpy	83
+tableday3_3ce51890	table	Хорошо...	game/code/3day.rpy	85
+tableday3_973e7aa9		Дипломат уровень 80, сука. Учись, Грызлов!	game/code/3day.rpy	88
+tableday3_b4f3a580	anon	{b}ВКЛЮЧИЛА БИСТРО БЛЯТЬ!{/b}	game/code/3day.rpy	91
+tableday3_9a63ca80	table	Д-д-да, с-с-сейчас..	game/code/3day.rpy	92
+tableday3_2ac5e8f7		Что со мной? Гыебат делает меня каким-то быдлом...	game/code/3day.rpy	94
+tableday3_862d0b6f		Похуй пока что.	game/code/3day.rpy	95
+tableday3_6438f963		Так вот о чём мне твердили конус, медсестра и бахильник! Теперь я знаю способ противодействия гыебату! {w}Как там говорили - микроволновые волны снижают действие Сверхглубокой...	game/code/3day.rpy	99
+tableday3_07c520ae		Так вот о чём мне твердили конус и бахильник! Теперь я знаю способ противодействия гыебату!{w} Микроволновые волны!	game/code/3day.rpy	101
+tableday3_be838549		Так вот о чём мне твердили бахильник и о чём хотела предупредить медсестра! Теперь я знаю способ противодействия гыебату!	game/code/3day.rpy	103
+tableday3_5fa2a0ba		А бахильник был прав на счёт микроволновок... Но как?!	game/code/3day.rpy	105
+tableday3_e69bb69b		А конус знает толк в излучениях...{w} Гыебат лечится включением микроволновки?	game/code/3day.rpy	107
+tableday3_13b235a2		Это как-то с ними связано... Похоже, микроволновки как-то спасают от этого гула своим звуком...	game/code/3day.rpy	109
+tableday3_f14e8ac2		Значит, пора делать опрос...	game/code/3day.rpy	110
+tableday3_ebef65fa		Спасибо за внимание, уделённое сверхсекретной новелле!	game/code/3day.rpy	113
+tableday3_c75ef7cd		К сожалению, скорый призыв мешает доделать (ага, когда вы проиграли только в малую часть из планированного) нэвэльную. Но я же Пахом и патриот, поэтому надо в армию!	game/code/3day.rpy	114
+tableday3_eef99f85		Я надеюсь, что вам понравилась эта часть Нэвэльной и в будущем, после дембеля, я приступлю к ней снова.	game/code/3day.rpy	115
+tableday3_6483513a		Проект будет выпущен в 2019 году. Ждать осталось недолго.	game/code/3day.rpy	116
+tableday3_2a5641bd	dp10	Передаю привет Пахомову Д.А. и желаю скорейшего выхода его новеллы для сравнения!	game/code/3day.rpy	118
+guebat_a83a3b78	anon	ЧТО ПРОИСХОДИТ?!	game/code/guebat.rpy	4
+guebat_accc28f3	anon	ЧТО ЭТО ЗА ЗВУКИ В МОЕЙ ГОЛОВЕ?!	game/code/guebat.rpy	5
+guebat_a79ab4ab	anon	АААА, ЙОПТНАХ! Это кит нах гыйебать!	game/code/guebat.rpy	6
+guebat_4dc6ca47	anon	Я китёнок, ебущий в воображении тёлок! Гыйбать наня йопт нах гыйбать. СЛАВА ПАХОМУ! СЛАВА ЗОЛОТЫМ МОЛОТКАМ!	game/code/guebat.rpy	7
+guebat_5aa50455	centered	Вы попали под влияние Пахома. Скорее всего, вы единственный такой во Вселенной.	game/code/guebat.rpy	10
+guebat_0c329fec	centered	КОНЕЦ ИГРЫ!	game/code/guebat.rpy	11
+day2_91f1b2ab		Что происходит???	game/code/2day.rpy	5
+day2_1e93e027		Уже утро?{w} Вот чёрт, надо уже вставать. Бошка ещё болит...	game/code/2day.rpy	10
+day2_f7a04584	mom	[anon], проснулся?{w} Отлично. Я тебе оставила завтрак на кухне, а мне пора идти на работу.{w} Не опаздывай в колледж, люблю.	game/code/2day.rpy	13
+day2_620de530	anon	Да, мам, спасибо.	game/code/2day.rpy	14
+day2_8fde3977		Ладно, пойду в ванну и жрать.	game/code/2day.rpy	15
+day2_4a686d2d	centered	Некоторое время спустя.	game/code/2day.rpy	17
+day2_e91595ce	TV	...зарегистрированы массовые случаи суицида.{w} Правительство СПб призывает граждан Петербурга и Ленинградской области оставаться дома.	game/code/2day.rpy	20
+day2_f0c3a752		Сука, а у меня ебучий зачёт по философии. Ну за что такая хрень.	game/code/2day.rpy	21
+day2_2e4c55a3	TV	И к другим новостям{w} - сегодня по всему миру была видна Кровавая луна.{w} Люди со всего мира любовались этим космическим явлениям.	game/code/2day.rpy	25
+day2_7b756242		Кровавая Луна? Что за хуйня, откуда она вообще? Хули она красная?{w} Ладно, потом поищу ответ на эту шараду.	game/code/2day.rpy	27
+day2_f9d3f4d5	TV	А теперь вернёмся к теме Украины{w}. Сколько стоят трусы Оба...	game/code/2day.rpy	31
+day2_369f9e51		Кисёлёв, заебал, иди нахуй уже.{w} Одни истории охуительнее других - то про Украину, про Сирию, то про трусы Обамы!{w} У них президент уже другой, мудак!	game/code/2day.rpy	38
+day2_3b277634		Похуй, пойду в шарагу, не телек же смотреть.	game/code/2day.rpy	39
+day2_e7bd6189	centered	Спустя час.	game/code/2day.rpy	41
+day2_1b03391f		Дорога до моей шараги была лишена всякой хуйни.{w} Ну кроме одной.	game/code/2day.rpy	42
+day2_2b447293		Лол, подойти поздороваться может?	game/code/2day.rpy	45
+day2_36a572d3	anon	Здрастите, Валерий Иванович!{w} А где ваш Солярис?	game/code/2day.rpy	50
+day2_c91738eb	pidor	Ты кто?	game/code/2day.rpy	51
+day2_cbf726de	anon	Я учусь в вашем колледже	game/code/2day.rpy	52
+day2_102f9343	pidor	Отчислен нах!ОТ-{w}ЧИС-{w}ЛЕН!	game/code/2day.rpy	53
+day2_afb2610a	anon	За что?	game/code/2day.rpy	55
+day2_9f0729c0	pidor	Отчислен, можешь не приходить!	game/code/2day.rpy	56
+day2_4fd53687		Чего блять? Пиздец, я отчислен.	game/code/2day.rpy	57
+day2_6e4569f8	centered	Вы отчислены из-за плохого настроения дирика.	game/code/2day.rpy	59
+day2_389e7439		Ну его нахуй, отчислит ещё, пидор бешенный.	game/code/2day.rpy	63
+day2_c74cb198	anon	Здравстуйте, товарищ Гвардии Майор!	game/code/2day.rpy	68
+day2_d2195100	general	Э! Здравствуйте, куртки в гардероб и надеть бахилы!	game/code/2day.rpy	69
+day2_849a7163	anon	Хорошо.	game/code/2day.rpy	70
+day2_e491cc4e		Пойду сначала бахилы куплю.	game/code/2day.rpy	71
+day2_9f77120b	bahil	Э, студент, здарова. Я - бахильник!	game/code/2day.rpy	76
+day2_0880c59b		{b}ЧТО БЛЯТЬ????{/b}	game/code/2day.rpy	77
+day2_d15cb0a2	bahil	Перестань охуевать и брось в меня монетку	game/code/2day.rpy	78
+day2_7d3f938b	bahil	Чувак, я должен тебе сказать, используй {i}микроволновки{/i}.{w} Это пока всё, что я знаю. Удачи, [anon].	game/code/2day.rpy	83
+day2_a7b9cf03	anon	Что? Ты говоришь? Что происходит???	game/code/2day.rpy	84
+day2_91376fd6	kit	Чувак, ты нахера с бахильником говоришь?	game/code/2day.rpy	85
+day2_4e7e78e8	anon	Эээ...{w} Просто...{w} Иди нахуй, чувак.	game/code/2day.rpy	86
+day2_67669be1	kit	Ненормальный уёбок.	game/code/2day.rpy	87
+day2_99c9a35a	bahil	Ах ты пидор, жетон бросил. Не скажу тебе ничего, пидор жадный.{w} Разбирайся сам.	game/code/2day.rpy	90
+day2_37918d27	anon	Что ты несёшь, бахильник?{w} Ты вообще говорить не должен!	game/code/2day.rpy	91
+day2_f8e87737	kit	Чувак, с тобой всё хорошо?	game/code/2day.rpy	92
+day2_0851d95f	anon	Отстань нахуй.	game/code/2day.rpy	93
+day2_50189360	kit	Ненормальный, сука. Ну тебя нахуй.	game/code/2day.rpy	94
+day2_75e3a6b4		Дирик поставил говорилку в бахильник, похоже.{w} А я повёлся, ещё и ненормальным стал.{w} Вот пидор.	game/code/2day.rpy	95
+day2_fe4c908b		Ладно, а теперь теперь в гардероб.	game/code/2day.rpy	97
+day2_990d6828		Отлично, хоть пустой.{w} А теперь на философию.	game/code/2day.rpy	99
+filosof_7abff9f0		Ох, ненавижу коридоры кита. {w}Так много людей, что преподов можно не заметить.	game/code/2day.rpy	104
+filosof_5c378b40	centered	На паре философии.	game/code/2day.rpy	107
+filosof_191a7315	snkw	Здравствуйте, дорогие студенты!	game/code/2day.rpy	111
+filosof_6feda93c	snkw	Кто угадает, что в ящике?	game/code/2day.rpy	112
+filosof_53ebd28c	snkw	Неправильно. Киник, там был Филосовский камень!	game/code/2day.rpy	116
+filosof_099daacb		Просто отсоси, Гарри Поттер!	game/code/2day.rpy	117
+filosof_53ebd28c_1	snkw	Неправильно. Киник, там был Филосовский камень!	game/code/2day.rpy	119
+filosof_099daacb_1		Просто отсоси, Гарри Поттер!	game/code/2day.rpy	120
+filosof_53ebd28c_2	snkw	Неправильно. Киник, там был Филосовский камень!	game/code/2day.rpy	122
+filosof_099daacb_2		Просто отсоси, Гарри Поттер!	game/code/2day.rpy	123
+filosof_b7aa132f	snkw	Правильно, молодец!	game/code/2day.rpy	125
+filosof_099daacb_3		Просто отсоси, Гарри Поттер!	game/code/2day.rpy	126
+filosof_423dc442	snkw	Вот он!	game/code/2day.rpy	128
+filosof_719839e9		И что это сука мне дало? Поехавшая сука, пиздец бомбит жопу.	game/code/2day.rpy	129
+filosof_e84a4ef6		Ох, пара даже лёгкая.{w} Неужели хорошо пройдёт.	game/code/2day.rpy	131
+filosof_028ee251	snkw	Как я говорила, [anon] очень способный ученик!{w} Он освобождается от зачёта и получает автоматом 5!	game/code/2day.rpy	133
+filosof_4e3d9101	anon	Что?!	game/code/2day.rpy	134
+filosof_2d1428c9	snkw	Я говорю, что освобождаю тебя от зачёта.{w} Ты очень способный программист и можешь просто посидеть и поспать на паре!	game/code/2day.rpy	135
+filosof_cf0f1129		Чего происходит?{w} Я освобождён от зачёта? Ну нихуя себе! {w}Это клёво!	game/code/2day.rpy	136
+filosof_7a45f8ee	kit	Чувак, как ты так смог?	game/code/2day.rpy	137
+filosof_15d68cfd	anon	Да мамке моей позвонила, похоже, они нормально поговорили. Правда мне пизды дали.	game/code/2day.rpy	139
+filosof_4a271c8f	kit	Лол.	game/code/2day.rpy	140
+filosof_a70fc054	anon	Удачи тебе, чтоли.	game/code/2day.rpy	141
+filosof_eba0bc9b	anon	Да я рассказал ей синквейн сам.	game/code/2day.rpy	143
+filosof_1cf66b25	kit	Почему я до такого не допёр?!	game/code/2day.rpy	144
+filosof_4e822a15	anon	Не знаю.{w} Но желаю тебе удачи на зачёте.	game/code/2day.rpy	145
+filosof_6722ebad	kit	Спасибо, чувак.	game/code/2day.rpy	146
+filosof_1bcc8f0f		Все, кроме меня сдавали этот сранный глоссарий.{w} Я просто какой-то везунчик, ей-богу.	game/code/2day.rpy	147
+filosof_40ada1a4		Чувствую, мне будет тяжело.	game/code/2day.rpy	150
+filosof_5b988976	snkw	Поиграем в мячик!	game/code/2day.rpy	151
+filosof_60d6e7d0	snkw	А теперь глоссарий! Начинает [anon]!	game/code/2day.rpy	153
+filosof_89535045		Тут прилетел мячик. Мне не отвертеться.	game/code/2day.rpy	154
+filosof_2c7ba46c		{b}СУКААА{/b}	game/code/2day.rpy	155
+filosof_7d98860c	snkw	Что такое бытие?	game/code/2day.rpy	156
+filosof_e54b6bfe	snkw	Неправильно! Киник!	game/code/2day.rpy	167
+filosof_8a3b6396		Я же в ответах mail.ru посмотрел, что неправильного?	game/code/2day.rpy	168
+filosof_2ff86333	snkw	Если ты компьютерщик...	game/code/2day.rpy	169
+filosof_ce5008ee	snkw	Правильно!{w} Бросай мячик!	game/code/2day.rpy	175
+filosof_2ff86333_1	snkw	Если ты компьютерщик...	game/code/2day.rpy	176
+filosof_aab5d04d		Ебать, угадал как-то эту херню. Лааадно.{w} Опять мячик мне? ВТФ?	game/code/2day.rpy	177
+filosof_4d8ccf00	snkw	Какое здяся? Я тута!{w} Неправильно!{w} Бросай мячик более умному студенту!	game/code/2day.rpy	182
+filosof_7bc4218c		А что неправильно-то?	game/code/2day.rpy	183
+filosof_2ff86333_2	snkw	Если ты компьютерщик...	game/code/2day.rpy	184
+filosof_d92372c9	snkw	{b}СОВСЕМ СТРАХ ПОТЕРЯЛ? СЕЙЧАС ДВОЙКУ ПОСТАВЛЮ ЗА ТАКИЕ ОТВЕТЫ!{/b}	game/code/2day.rpy	189
+filosof_ac9cecc5	snkw	Сейчас родителям позвоню!	game/code/2day.rpy	191
+filosof_a67b5561		Я спать хочу, а не зачёт по философии, отъебись.	game/code/2day.rpy	192
+filosof_f694b983	snkw	Мячик бросай!	game/code/2day.rpy	193
+filosof_12b56d4d		Забыл.	game/code/2day.rpy	194
+filosof_2ff86333_3	snkw	Если ты компьютерщик...	game/code/2day.rpy	195
+filosof_74b20b0d	snkw	Что такое материальная субстанция?	game/code/2day.rpy	196
+filosof_947551e8	snkw	Я знаю, что ты учишься на программиста,{w} но ты не знаешь философию - самый важный предмет программиста!{w} Неправильно!{w} Следующий!	game/code/2day.rpy	207
+filosof_b1769617		Говнозалупапенисхер, сука! Ебучие ответы mail.ru!	game/code/2day.rpy	208
+filosof_fe49183b	snkw	Как правильно сесть на конус...	game/code/2day.rpy	209
+filosof_91ea89f6	snkw	Неплохой ответ, но не правильно!{w} Следующий!	game/code/2day.rpy	214
+filosof_fe49183b_1	snkw	Как правильно сесть на конус...	game/code/2day.rpy	215
+filosof_8aee7c4c		Мне пизда.	game/code/2day.rpy	216
+filosof_51978a24	snkw	Какой ты умный! Я не ожидала.{w} Следующий!	game/code/2day.rpy	222
+filosof_fe49183b_2	snkw	Как правильно сесть на конус...	game/code/2day.rpy	223
+filosof_2d1a6acd		Такое ощущение, что я сейчас лишаюсь девственности своих ушей.{w} С жопой уже давно всё понятно.	game/code/2day.rpy	224
+filosof_7bee8e18	snkw	Киник!{w} Неправильно!{w} Следующий!	game/code/2day.rpy	229
+filosof_fe49183b_3	snkw	Как правильно сесть на конус...	game/code/2day.rpy	230
+filosof_83a58a29	snkw	Что такое познать пылесос?	game/code/2day.rpy	231
+filosof_319a709d	snkw	Неплохой ответ, но неправильно!{w} Следующий!	game/code/2day.rpy	242
+filosof_624b3d75	snkw	Как определить, что у вас есть гые...	game/code/2day.rpy	243
+filosof_218b6bcc		Траханные ответы!	game/code/2day.rpy	244
+filosof_d9d206a6	snkw	Молодец!	game/code/2day.rpy	250
+filosof_624b3d75_1	snkw	Как определить, что у вас есть гые...	game/code/2day.rpy	251
+filosof_8f122b97		Просто ааааааа, как я через это прохожу, ужас!	game/code/2day.rpy	252
+filosof_9f93e155	snkw	{b}АХ ТЫ УБЛЮДОК! ПОШЛИ К ДИРЕКТОРУ!{/b}	game/code/2day.rpy	257
+filosof_42805e51		Что я наделал?	game/code/2day.rpy	258
+filosof_446f1c37	snkw	[anon] получает пятерку!{w} Молодец!{w} Умница, ты сдал зачёт! А теперь синквейн!	game/code/2day.rpy	261
+filosof_891b45a5	snkw	[anon] получает четверку!{w} Молодец!{w}	game/code/2day.rpy	264
+filosof_d2398735	snkw	[anon] получает тройку!{w} Почти нихрена не знает, тебе надо раcсказать синквейн!	game/code/2day.rpy	267
+filosof_25c6b76e	snkw	[anon] тупой! Ты не знаешь самый важный предмет для программиста!	game/code/2day.rpy	270
+filosof_b9f793c5	snkw	Что мне с тобой делать?	game/code/2day.rpy	271
+potolok_44d5730c		Наконец-то прошла эта пара. Пора и на следующую.	game/code/2day.rpy	280
+potolok_e158bc66		Так, что это сейчас у нас?	game/code/2day.rpy	281
+potolok_b58b45f0		Чёрт, физ-ра.{w} Ладно, вспомню свои спортивные навыки.	game/code/2day.rpy	282
+potolok_d0cc7a82		{b}ЧТО ЭТО БЫЛО ТОЛЬКО ЧТО???{/b}	game/code/2day.rpy	285
+potolok_15102b53		Так, это было со стороны спортзала.{w} Надо бежать туда.	game/code/2day.rpy	286
+potolok_132c6060		Народа-то уже...{w} Стоп, там кто-то есть!	game/code/2day.rpy	290
+potolok_3fbb703a	anon	Там кто-то есть, посоны!	game/code/2day.rpy	291
+potolok_1c7d5762	kits	Чего, гыебать?	game/code/2day.rpy	292
+potolok_58546c53	anon	Я там кого-то вижу!	game/code/2day.rpy	293
+potolok_6fa08caa	anon	Фомин?{w} Как так-то?!	game/code/2day.rpy	295
+potolok_ea93b559	foma	Я прокладывал кабель наверху, чтобы сеть не падала и пинг был хотя бы меньше, чем до Москвы! Не стойте, спасите, парни!	game/code/2day.rpy	296
+potolok_691ef00c	anon	Да помогите ему!	game/code/2day.rpy	297
+potolok_c2d27231	kits	Мы же китята, у нас плавники.	game/code/2day.rpy	298
+potolok_d4f750e1		Ох блять, инвалиды ебанные.	game/code/2day.rpy	299
+potolok_1b4e770d	anon	Расступились, инвалиды.	game/code/2day.rpy	303
+potolok_8231a8f1		Действовать надо быстро	game/code/2day.rpy	304
+potolok_0f77f6c2	anon	Фомин, я тебя вытащу!	game/code/2day.rpy	305
+potolok_3da7447e		Ебать сука он жирный!	game/code/2day.rpy	306
+potolok_3f0bd141		Да вытаскивайся ты!	game/code/2day.rpy	307
+potolok_b2792e5a	anon	Я не могу вас вытащить!	game/code/2day.rpy	308
+potolok_b9592adb	foma	Блин, теперь я человек-бочка!	game/code/2day.rpy	309
+potolok_d859b4d1	foma	Прыгну я отсюда, но за помощь спасибо!	game/code/2day.rpy	310
+potolok_ef0e236d	anon	О, человек-бочка!{w} Так вам больше идёт!.	game/code/2day.rpy	312
+potolok_64f47ee6	foma	Бляяяяяяяя!	game/code/2day.rpy	313
+potolok_d0687cdd	foma	Ладно, тiкаю отсюда, а то ещё дирик увидит.	game/code/2day.rpy	314
+potolok_762bcda8		Теперь Фомин - цэ бочка. Что не так с этим местом?	game/code/2day.rpy	316
+potolok_24b92ee3		Ладно, щас физ-ра, пойду переоденусь.	game/code/2day.rpy	317
+potolok_234deb1e	delite	Расставь конусы пока на начало пары.	game/code/2day.rpy	322
+potolok_849a7163	anon	Хорошо.	game/code/2day.rpy	323
+potolok_a98a365a		Ебучие конусы, ставить их ещё. А я один.	game/code/2day.rpy	325
+potolok_b7520d79		Со мной говорит конус в ките, который я держу. {w} Я уже не удивляюсь.	game/code/2day.rpy	329
+potolok_664dd76c	anon	Что тебе надо, конус ебанный?	game/code/2day.rpy	330
+potolok_e722c7a1	con	Я знаю одну тайну.{w} Тебе надо будет сделать одно действие, чтобы я её сказал.	game/code/2day.rpy	331
+potolok_012e59cd		Так, так как я в ките, выбор неборльшой. Надо выбрать.	game/code/2day.rpy	332
+potolok_ad1de3ee	con	Ты нахуя сел, дебил?{w} Хоть бы жопу помыл, блять.	game/code/2day.rpy	340
+potolok_36aecd00	anon	Я же китёнок, ты что думал?{w} Всегда так делаю. {w}А что, можно было не садиться?	game/code/2day.rpy	341
+potolok_e4edd452		Я совсем еблан?	game/code/2day.rpy	342
+potolok_ea1fc5c6	con	Да мне щекотно было, вот я и захотел, чтобы ты меня поставил на пол. {w}А теперь я из-за тебя воняю.	game/code/2day.rpy	343
+potolok_aae78aaf	anon	Да иди нахуй, нормально выразиться не мог, загадками стал говорить. Вот я и поступил по-китовски.	game/code/2day.rpy	344
+potolok_f6fe3e53	con	Иди просто нахуй, сука, пидор. Не буду тебе ничего говорить.	game/code/2day.rpy	345
+potolok_b22b39ed	anon	Сейчас ещё раз сяду!	game/code/2day.rpy	346
+potolok_a64438f9	con	{b}НИНАДА!{/b}{w} Я скажу.{w}{i} Электромагнитные волны, излучаемые микроволновками, в равной степени противодействуют волнам с Кольской Сверхглубокой.{/i}{w} Ты же видишь сны с Пахомом? {w}Это работа Сверхглубокой.{w} Это всё что я знаю, бля буду!	game/code/2day.rpy	347
+potolok_fee8276d	anon	Так-то лучше! Спасибо, чтоли.	game/code/2day.rpy	348
+potolok_2dedc8de	con	Иди нахуй.	game/code/2day.rpy	349
+potolok_e7b06387		Кольская Сверхглубокая?{w} Пахом?{w} Да, я их выжу во снах. Это даже выглядит логично.{w} Неужели странности последних дней можно объяснить этим?{w} Либо я поехал с КИТом.	game/code/2day.rpy	351
+potolok_c3068ecb	delite	Что тут было?	game/code/2day.rpy	353
+potolok_95d6a5ab	anon	Да я конусы расставил.	game/code/2day.rpy	354
+potolok_6db03b3b	delite	А, хорошо, молодец.	game/code/2day.rpy	355
+potolok_a350855c	delite	Так, стоп, почему этот конус воняет говном???	game/code/2day.rpy	356
+potolok_fdaf754b	anon	Не знаю...	game/code/2day.rpy	357
+potolok_7bdd54fa	delite	Я знаю, что ты на него сел! Пошли к директору!	game/code/2day.rpy	358
+potolok_e2014d1e	anon	Не надо!	game/code/2day.rpy	359
+potolok_c8523e71	delite	Тогда удоли посты плз.	game/code/2day.rpy	360
+potolok_3e2c1233		Но я не одмен же. Ладно, похуй, я же с ним знаком.	game/code/2day.rpy	361
+potolok_849a7163_1	anon	Хорошо.	game/code/2day.rpy	365
+potolok_418b719c	delite	Ну и отлично.	game/code/2day.rpy	366
+potolok_68af7e29	centered	После пары физ-ры.	game/code/2day.rpy	369
+potolok_63fcb423	delite	Может тогда конус почистишь? Воняет твоей жопой!	game/code/2day.rpy	372
+potolok_8b345c91		Хоть бы вилку дала!	game/code/2day.rpy	373
+potolok_b0729725	delite	На тебе вилку, чисти!	game/code/2day.rpy	377
+potolok_b37e23b0	anon	Как я буду вилкой-то чистить?	game/code/2day.rpy	378
+potolok_f843889f	delite	Чисти!	game/code/2day.rpy	379
+potolok_329cccf1	anon	Покажите мне, как!	game/code/2day.rpy	380
+potolok_923ba83c	delite	Чисти, чисти!{w} Вот как, блядь, нужно чистить, вот, быстро.{w} Быстро.{w} Раз-раз! Чисти, чисти, чисти-чис-чис-чиж-чж-чижь! {w}Чисти! Говно!{w} Чисти!	game/code/2day.rpy	382
+potolok_ce8bb537		Пидорасы, блядь...{w} Суки, блядь.{w} Говно. Охуенно. Блядь.{w} Сука, блядь.	game/code/2day.rpy	383
+potolok_c072c264	centered	Спустя чистку конуса.	game/code/2day.rpy	385
+potolok_8567f72b		Ну нахуй эту пару. Пойду жрать нахуй.	game/code/2day.rpy	388
+potolok_89c3f6b7	delite	Тогда у меня нет выбора.	game/code/2day.rpy	391
+potolok_5b6b218f	con	Спасибо!{w} Хоть не сел на меня, это радует.	game/code/2day.rpy	397
+potolok_3db30a73	anon	Так что ты хотел мне сказать?	game/code/2day.rpy	398
+potolok_2be9036e	con	{i}Электромагнитные волны, излучаемые микроволновками, в равной степени противодействуют волнам с Кольской Сверхглубокой.{/i}{w} Ты же видишь сны с Пахомом? {w}Это работа Сверхглубокой.{w} Так что микроволновки - твои друзья на ближайшее время.{w} Пахом что-то готовит, и это не к добру, братан.	game/code/2day.rpy	399
+potolok_91d396c4	con	Шавлюга идёт, я тiкаю.	game/code/2day.rpy	400
+potolok_e7b06387_1		Кольская Сверхглубокая?{w} Пахом?{w} Да, я их выжу во снах. Это даже выглядит логично.{w} Неужели странности последних дней можно объяснить этим?{w} Либо я поехал с КИТом.	game/code/2day.rpy	402
+potolok_8ff3a137	anon	А я конусы расставил!	game/code/2day.rpy	404
+potolok_6db03b3b_1	delite	А, хорошо, молодец.	game/code/2day.rpy	405
+potolok_c968604e	delite	Похоже, никого на паре не будет, давай я тебе посталю 5, а ты помоешь полы.	game/code/2day.rpy	406
+potolok_e9b94763		Бля, полы мыть, ну и говно пиздец. {w}Ну хотя бы 5 халявная, не надо обижать свои мышцы.	game/code/2day.rpy	412
+potolok_b29165d7	centered	Спустя весь пол спортзала и обиженные мышцы.	game/code/2day.rpy	414
+potolok_0a13d1c6		Уф, бля, нихуёвая физра. {w}Хули я мышцы-то обидел.	game/code/2day.rpy	416
+potolok_03129003	delite	О, молодец! Как всё чисто!	game/code/2day.rpy	418
+potolok_ea672e92	delite	Слушай, ты мне так помог, не хочешь ли ты испытать райское удовольствие?	game/code/2day.rpy	419
+potolok_47eaf1eb	anon	Баунти поесть чтоли?	game/code/2day.rpy	420
+potolok_6c11677f	delite	Нет. Я говорю про плотские удовольствия.	game/code/2day.rpy	421
+potolok_45e4e2d4		{b}ЩИТО?{/b}	game/code/2day.rpy	422
+potolok_5ba8d660	delite	Ну сейчас мало времени до конца пары, могу тебе подрочить!	game/code/2day.rpy	423
+potolok_4e3c7727		{b}ЩИТO?{/b}	game/code/2day.rpy	424
+potolok_3c96d4fd		Похуй, я ж китёнок, когда мне ещё баба подрочит.	game/code/2day.rpy	429
+potolok_b932b938	anon	Я всегда об этом мечтал!	game/code/2day.rpy	430
+potolok_4fbe2379	delite	Подойди ко мне!	game/code/2day.rpy	431
+potolok_adc5457d	centered	Слишком противные сцены, Женевская конвенция запретила данную сцену, как ОМП.	game/code/2day.rpy	433
+potolok_a160604b		Ооооох, заебиииися!	game/code/2day.rpy	435
+potolok_0f1805d2	anon	До свидания!	game/code/2day.rpy	436
+potolok_38086a97	delite	До свидания!{w} Тебе 5 и я буду тебя ждать!	game/code/2day.rpy	437
+potolok_60416319	anon	Вы прикалываетесь?	game/code/2day.rpy	441
+potolok_b6478621		БЕЖАТЬ НАХУЙ ОТСЮДА!	game/code/2day.rpy	442
+potolok_cba1315c		Уффф, убежал от похотливой суки. Пиздец, как на это можно было дрочить?	game/code/2day.rpy	446
+potolok_ba7a61dc		Ладно, пойду за едой.	game/code/2day.rpy	447
+potolok_0bcfb390	anon	Извините, у меня дела. До свидания!	game/code/2day.rpy	451
+eat_5f7cc8c1		Сука, макароны с лобковыми волосами!	game/code/2day.rpy	459
+eat_c222ea38		Заебало уже!	game/code/2day.rpy	460
+eat_757dfb77	snkw	Ребята, на следующей паре у нас СНО!{w} Ждём вас всех!	game/code/2day.rpy	463
+eat_09961fef	snkw	[anon], я тебя особенно жду, мой программист!	game/code/2day.rpy	465
+eat_86542cb6	snkw	[anon], не придёшь, я скажу директору!	game/code/2day.rpy	467
+eat_e39ce42d		Блядское СНО!{w} Заебало уже нахуй.	game/code/2day.rpy	468
+eat_4a392f9c		Может, свалить? А то потом не выпустят.	game/code/2day.rpy	469
+eat_3d6ba3fe		Да, точно, надо отсюда валить. Надеюсь, Маркович ещё не успел встать.	game/code/2day.rpy	474
+eat_7023d055		Блять, встал, как теперь выйти?	game/code/2day.rpy	479
+eat_5be5778f	anon	А можно выйти покурить?	game/code/2day.rpy	480
+eat_3cfafcc4	general	Да, конечно, проходи.	game/code/2day.rpy	482
+eat_ab6242b6	kit	Эй, как он выше...	game/code/2day.rpy	483
+eat_3a45b3d3		Вот это да.{w} Из этого следует мудрая мысль - перед Марковичем надо покупать бахилы.	game/code/2day.rpy	484
+eat_137bc15f	general	Э!{w} Нет! Не выпущу!{w} Пошёл на СНО!	game/code/2day.rpy	488
+eat_14de7d9f		Надеюсь, Захарка не видела...	game/code/2day.rpy	489
+eat_cae52726	snkw	Ах ты киник! Я тебе верила, а ты меня предал!{w} Мразь!{w} Урод!{w} Сволочь!{w} Ублюдок!{w} Разве я заслужила такого отношения?	game/code/2day.rpy	495
+eat_e2908a85		Вспомнишь говно, вот и оно.{w} Теперь ещё и испортил отношения с Захаркой. Ну йобана.{w} И всё равно идти на СНО...	game/code/2day.rpy	496
+eat_aec0e9bf		Блять, Захарка идёт, лучше на СНО пойду, пока она не увидела, а то к дирику поведёт.	game/code/2day.rpy	499
+eat_5890707e	snkw	Свалить хотел?	game/code/2day.rpy	503
+eat_431ddc0a	pidor	Отвечай!	game/code/2day.rpy	504
+eat_98cbc3ac	anon	Я на СНО шёл! Я просто был в столовой, сами видели!	game/code/2day.rpy	505
+eat_d43d4d80	snkw	Ну хорошо. Но если свалишь - пеняй на себя!	game/code/2day.rpy	506
+eat_48b23172	pidor	Отчислю тебя!	game/code/2day.rpy	507
+eat_5c32dcbb		Ох, сколько я уже должен быть отчислен...	game/code/2day.rpy	508
+eat_fb1dd36f	centered	Через 10 минут.	game/code/2day.rpy	510
+eat_db1de590		Потушу пердак. Вдруг Маркович не выпустит или Захарка заметит.{w} Узнал бы раньше...	game/code/2day.rpy	513
+sno_62f31350	snkw	Здравствуйте, дорогие студенты!{w} Рада приветствовать вас на 13 ежегодном межгалактическом студентческом обществе!	game/code/2day.rpy	521
+sno_25397fdc	snkw	Представляю вам Алексея Гусельникова, выпускника нашего колледжа!{w} Он стал рок-звездой и руководит группой Yeblo!	game/code/2day.rpy	523
+sno_5c47fda7	goose	Yllo!	game/code/2day.rpy	524
+sno_960d2b66	snkw	Прости меня, зайчик! Да, группа Yllo, аплодисменты!	game/code/2day.rpy	525
+sno_4ea0d39e		Ну нахуй это ебучее СНО и ебучего гуся.	game/code/2day.rpy	531
+sno_7f78f1c4		Пауза	game/code/2day.rpy	535
+sno_365a575a	snkw	Отличное выступление! Следующий - Русская Зима!	game/code/2day.rpy	539
+sno_9dd7bf6d		Бляяять, мне уже гуся хватило... Может всё же свалить?	game/code/2day.rpy	541
+sno_9a82faee		Ну нахуй это ебучее СНО и ебучую русскую зиму!	game/code/2day.rpy	547
+sno_7f78f1c4_1		Пауза	game/code/2day.rpy	551
+sno_cc7b4008	snkw	Это было замечательно!{w} Хорошее выступление!	game/code/2day.rpy	556
+sno_c713f6dc	snkw	И последнее - МС Кит! Хороший репер, уважающий наше заведение!	game/code/2day.rpy	557
+sno_8edd61f2		Я просто уже в ахуе, нахуй надо. {w}Валить, только валить!	game/code/2day.rpy	562
+sno_7f78f1c4_2		Пауза	game/code/2day.rpy	566
+sno_f1329ebd		Ох, ну и СНО... Надеюсь, это всё?	game/code/2day.rpy	570
+sno_735da478	snkw	На этом 13 ежегодное межгалактическое СНО закончена! Всем спасибо!	game/code/2day.rpy	573
+sno_0d8d020b		Я выдержал, охуеть!	game/code/2day.rpy	575
+sno_d18fa839		Ладно, ну нахер, надо идти домой.	game/code/2day.rpy	576
+hardhome_a7972930		Хорошо, что никого в гардеробе не было, изи куртку взял.	game/code/2day.rpy	582
+hardhome_48736f84	general	Э!{w} Куда пошёл?	game/code/2day.rpy	585
+hardhome_3acc9f43	anon	Домой.	game/code/2day.rpy	586
+hardhome_79d933c0	general	Ладно, иди! Только тихо, э!	game/code/2day.rpy	588
+hardhome_ab65552f	anon	Спасибо!	game/code/2day.rpy	589
+hardhome_cd8d179a	general	Выпущу, если отгадаешь мои загадки!	game/code/2day.rpy	593
+hardhome_acaf5487		О, шарады я последнее время полюбил.	game/code/2day.rpy	594
+hardhome_41bd0670	anon	Давайте.	game/code/2day.rpy	595
+hardhome_131c46b0	general	Какой самый известный самолёт на тихоокеанском театре военных действий?	game/code/2day.rpy	596
+hardhome_ceb12328	general	Идиот, блядь.{w} Скотина блядь.{w} Это знать надо, если ты учился в шестом училище!{w} Это классика, блядь!	game/code/2day.rpy	599
+hardhome_2538f9af	general	Чай неси!	game/code/2day.rpy	600
+hardhome_5f041f4d		Похоже, не знаю я этих шарад. Ладно, пойду чай принесу.	game/code/2day.rpy	601
+hardhome_df0e16fd		О!{w} Спизжу этот чай!	game/code/2day.rpy	605
+hardhome_a45ece52	kit	Чай сука спиздили!	game/code/2day.rpy	606
+hardhome_4f49c09b	anon	Вот!	game/code/2day.rpy	611
+hardhome_f6ecb4d1	general	Ладно, проходи. Марш отсюда!	game/code/2day.rpy	612
+hardhome_c3748502		С радостью!	game/code/2day.rpy	613
+hardhome_e4d28e4b	general	Правильно.{w} Проходи	game/code/2day.rpy	618
+hardhome_327538d9		Это было просто. Ну и хорошо, норм способ свалить домой.	game/code/2day.rpy	619
+hardhome_d0177a42	general	Отец твой тандерболт, а мамка твоя лайтнинг. Не правильно! Это знfть надо!	game/code/2day.rpy	623
+hardhome_cfc4bd58	general	Постоишь, не развалишься.	game/code/2day.rpy	624
+hardhome_bd0dc072	general	Все, иди уже.	game/code/2day.rpy	628
+hardhome_78a1eb8c	anon	Спасибо.	game/code/2day.rpy	629
+easyhome_30485bde		Ну и ебучее это СНО было!{w} То Гусь, то русская зима, то репер! Да я лучше реп зачитаю!	game/code/2day.rpy	636
+easyhome_d65a36ea		Ну ладно, хоть Захарку не обидил.	game/code/2day.rpy	637
+easyhome_05ed1b7a		И даже улучшил отношение!	game/code/2day.rpy	639
+easyhome_85eaf151		Прощай, шарага ебанная! Я иду домой нахуй.	game/code/2day.rpy	641
+homeday2_df813877		Эх, народа сколько. Опять толкаться, ненавижу.	game/code/2day.rpy	647
+homeday2_cf27a33f		Нихуя себе, смс.	game/code/2day.rpy	649
+homeday2_e8348b7f		{#l}{color=#000}Привет!{/color}	game/code/2day.rpy	652
+homeday2_642bb4a4		{#l}{color=#000}Я узнал про Кольскую Сверхглубокую!{/color}	game/code/2day.rpy	653
+homeday2_19855ce4		{#r}{color=#FFF}Ты кто, блять?{/color}	game/code/2day.rpy	654
+homeday2_8ea3d08b		{#l}{color=#000}Я бахильник!{/color}	game/code/2day.rpy	655
+homeday2_020f2415		{#r}{color=#FFF}БАХИЛЬНИК???{/color}	game/code/2day.rpy	656
+homeday2_35c6a514		{#l}{color=#000}Нет времени объяснять!{/color}	game/code/2day.rpy	658
+homeday2_219344a4		{#l}{size=16}{color=#000}Я тебе на флешку скинул данные про скважину.{/color}	game/code/2day.rpy	659
+homeday2_c7154a49		{#r}{color=#FFF}Пиздец. Что дальше?{/color}	game/code/2day.rpy	660
+homeday2_06b01200		{#r}{color=#FFF}Эй!{/color}	game/code/2day.rpy	661
+homeday2_26a4084f		{#r}{color=#FFF}Да ответь ты!{/color}	game/code/2day.rpy	662
+homeday2_9cbd5e3b		Не отвечает. Похоже, в ките кто-то остался и бахильником воспользовался.	game/code/2day.rpy	666
+homeday2_76f8e7d5		{b}ХОТЯ БЛЯТЬ ЧТО?{w} БАХИЛЬНИК МНЕ ПИШЕТ СМС ПРО СКВАЖИНУ И СКИДЫВАЕТ ФАЙЛЫ! {w}Я ЁБНУСЛЯ!{/b}{w} Да похуй. Я ж китёнок.	game/code/2day.rpy	667
+homeday2_926fe23a	centered	{b}Дома.	game/code/2day.rpy	670
+homeday2_225196e2		Так, вот момент истины, как раз родаки уже спят. Узнаю про свои сны и Кольскую сверхглубокую.{w} Странная дичь.	game/code/2day.rpy	672
+homeday2_fc18e570		Начнем с подслушки.	game/code/2day.rpy	673
+homeday2_b09cb22e		Выглядит, как стёб. {w}Но я ничему не удивлюсь. Надо бы вставить флешку.	game/code/2day.rpy	679
+homeday2_04563b22		Что за ромбики?{w} Кодировка полетела чтоли? Сразу видно, cайт делали в КИТе.{w} Ладно, ща будет все окей.	game/code/2day.rpy	683
+homeday2_fe6448da		Хацкер-mode on, сука.	game/code/2day.rpy	687
+homeday2_7793cd70		Так-то лучше.	game/code/2day.rpy	692
+homeday2_735f8a7c		Тааак. {w}Да это выглядит бредом! Я прям в РЕН ТВ попал!	game/code/2day.rpy	693
+homeday2_c2b8dd24		ДП - клон? Советское оружие Вьетнаму? Да бред же!{w} Как и последние события.	game/code/2day.rpy	694
+homeday2_a534f37b		Ладно, и так много времени провёл за этим, надо спать. Переварю всё завтра.	game/code/2day.rpy	695
+homeday2_5774a6c5		Подслушка ничего не дала, попробую в гугле что-то найти.	game/code/2day.rpy	698
+homeday2_2bd0a9bd		Это уже интереснее, но почему тут всё зачёркнуто?	game/code/2day.rpy	703
+homeday2_0af4025b		ВТФ? {w} Куда всё делось? Я страницу не обновлял!{w} Ладно, попробую обновить.	game/code/2day.rpy	705
+homeday2_b2f89ccd		Похоже, начитался. {w}Но это имеет отношение к моим снам! Сука пиздец.	game/code/2day.rpy	707
+homeday2_a20d9e9b		Пойду спать чтоли, завтра всё выясню.	game/code/2day.rpy	708
+goout_308f420c	snkw	Валерий Иванович, я вам тут одного киника привела, отчислите его, он говорил гадости на официальном сайте 'Подслушано в стенах СПбКИТ'	game/code/otchislen.rpy	6
+goout_98f756ef	pidor	С удовольствием отчислю этого студента.	game/code/otchislen.rpy	7
+goout_7f545473	centered	Спустя 5 минут	game/code/otchislen.rpy	9
+goout_0b44f2a1	pidor	Приказ напечатан, ты ОТЧИСЛЕЕН! Можешь завтра не приходить!	game/code/otchislen.rpy	13
+goout_271e1640	snkw	Иди отсюда, киник! Желаю, чтобы ты сдох от СПИДа.	game/code/otchislen.rpy	14
+goout_9fbff95c	centered	Вы были отчислены, но вы можете поступить сюда ещё раз!	game/code/otchislen.rpy	16
+goout_e1e777f0		Что, опять заново?	game/code/otchislen.rpy	20
+goout_898e624c	centered	Мудрое решение.	game/code/otchislen.rpy	24
+goout_0c329fec	centered	КОНЕЦ ИГРЫ!	game/code/otchislen.rpy	25
+pidorotch_606c1cdb	pidor	Отчислен, можешь даже не приходить завтра. Пошли в кабинет.	game/code/otchislen.rpy	32
+pidorotch_5dfab375	pidor	Отчислен! Вот твои документы, катись отсюда.	game/code/otchislen.rpy	35
+pidorotch_5f792563	centered	Вы были отчислены за тормознутость.	game/code/otchislen.rpy	37
+delite_d556a829	snkw	Валерий Иванович, он присел на конус, он ненормальный	game/code/otchislen.rpy	46
+delite_6a625675	pidor	Ненормальные нам не нужны, отчислен.	game/code/otchislen.rpy	47
+delite_9fbff95c	centered	Вы были отчислены, но вы можете поступить сюда ещё раз!	game/code/otchislen.rpy	49
+delite_e1e777f0		Что, опять заново?	game/code/otchislen.rpy	53
+delite_898e624c	centered	Мудрое решение.	game/code/otchislen.rpy	57
+delite_0c329fec	centered	КОНЕЦ ИГРЫ!	game/code/otchislen.rpy	58
+slowmoodle_356646ab	snkw	Будет ответ или нет?	game/code/cinquain.rpy	2
+slowmoodle_d8b9be2a	anon	Я не знаю.	game/code/cinquain.rpy	3
+slowmoodle_9ea1f603	snkw	Сука!{w} Мразь!{w} Поганец!{w} Урод!	game/code/cinquain.rpy	4
+slowmoodle_785560c7		Что делать-то?	game/code/cinquain.rpy	5
+slowmoodle_0a2c1d2f	anon	Я расскажу синквейн!	game/code/cinquain.rpy	9
+slowmoodle_a77eb4f1	snkw	Ну рискни!	game/code/cinquain.rpy	10
+slowmoodle_c387d95e		На какую тему синквейн-то сделать?{w} Точно! Конфуций!	game/code/cinquain.rpy	11
+slowmoodle_6ce14f7a	anon	На тему Конфуций.	game/code/cinquain.rpy	12
+slowmoodle_df74a5f8	snkw	Неправильно! К директору!	game/code/cinquain.rpy	16
+slowmoodle_91f2e7bd		Вроде правильно, если молчит.	game/code/cinquain.rpy	19
+slowmoodle_df74a5f8_1	snkw	Неправильно! К директору!	game/code/cinquain.rpy	23
+slowmoodle_df74a5f8_2	snkw	Неправильно! К директору!	game/code/cinquain.rpy	26
+slowmoodle_df74a5f8_3	snkw	Неправильно! К директору!	game/code/cinquain.rpy	35
+slowmoodle_087ac04c	snkw	Неплохо, хороший синквейн. Я довольна. Удачной учёбы, [anon].	game/code/cinquain.rpy	38
+slowmoodle_ab65552f	anon	Спасибо!	game/code/cinquain.rpy	39
+slowmoodle_05fe59f1		Ебать я молодец. Выкрутился.	game/code/cinquain.rpy	40
+slowmoodle_df74a5f8_4	snkw	Неправильно! К директору!	game/code/cinquain.rpy	43
+slowmoodle_df74a5f8_5	snkw	Неправильно! К директору!	game/code/cinquain.rpy	46
+slowmoodle_df74a5f8_6	snkw	Неправильно! К директору!	game/code/cinquain.rpy	49
+slowmoodle_df74a5f8_7	snkw	Неправильно! К директору!	game/code/cinquain.rpy	52
+slowmoodle_52b05ec2	snkw	Пошли к директору!{w} Тебе нечего здесь делать!	game/code/cinquain.rpy	55
+slowmoodle_57c8c890		Мне похоже пизда.	game/code/cinquain.rpy	56
+dop_6c770ba3	snkw	Расскажешь синквейн на тему Конфуций!	game/code/cinquain.rpy	60
+dop_ce8a70b7	anon	Попробую..	game/code/cinquain.rpy	61
+dop_aecfa405	snkw	Эх, неправильно!	game/code/cinquain.rpy	65
+dop_91f2e7bd		Вроде правильно, если молчит.	game/code/cinquain.rpy	68
+dop_aecfa405_1	snkw	Эх, неправильно!	game/code/cinquain.rpy	73
+dop_aecfa405_2	snkw	Эх, неправильно!	game/code/cinquain.rpy	76
+dop_aecfa405_3	snkw	Эх, неправильно!	game/code/cinquain.rpy	87
+dop_087ac04c	snkw	Неплохо, хороший синквейн. Я довольна. Удачной учёбы, [anon].	game/code/cinquain.rpy	91
+dop_ab65552f	anon	Спасибо!	game/code/cinquain.rpy	92
+dop_e6a85c6b		Ебать я молодец.	game/code/cinquain.rpy	93
+dop_aecfa405_4	snkw	Эх, неправильно!	game/code/cinquain.rpy	96
+dop_aecfa405_5	snkw	Эх, неправильно!	game/code/cinquain.rpy	99
+dop_aecfa405_6	snkw	Эх, неправильно!	game/code/cinquain.rpy	102
+dop_aecfa405_7	snkw	Эх, неправильно!	game/code/cinquain.rpy	105
+dop2_a43187da	snkw	[anon] получает четыре!{w} Настоящий программист!	game/code/cinquain.rpy	110
+dop2_3f35b216	anon	А почему 4? У меня же было 5!	game/code/cinquain.rpy	112
+dop2_92cbbaa7	snkw	Потому что надо сдать философов! Будешь сдавать?	game/code/cinquain.rpy	113
+dop2_7bc6c853	snkw	{b}КАКОЙ НАФИГ АЛЕКСАНДР МАКЕДОНСКИЙ???{/b}{w}Ты совсем поехвавший?{w} Оставайся с четверкой, киник!{w} Откуда вы все это берёте?	game/code/cinquain.rpy	121
+dop2_20c15e9c		Что ей там не понравилось?{w} Пиздец, всё учил и тут 4.{w} Ладно, похер.	game/code/cinquain.rpy	122
+dop2_c0575b7a	snkw	Какой ты молодец! Пятёрка!	game/code/cinquain.rpy	127
+dop2_73e0aa02		{b}ДААА, СУКИ! Я КОРОЛЬ МИРА! ЕЕЕЕЕ!{/b}	game/code/cinquain.rpy	128
+dop2_7bc6c853_1	snkw	{b}КАКОЙ НАФИГ АЛЕКСАНДР МАКЕДОНСКИЙ???{/b}{w}Ты совсем поехвавший?{w} Оставайся с четверкой, киник!{w} Откуда вы все это берёте?	game/code/cinquain.rpy	133
+dop2_20c15e9c_1		Что ей там не понравилось?{w} Пиздец, всё учил и тут 4.{w} Ладно, похер.	game/code/cinquain.rpy	134
+dop2_67ed6af7	anon	Меня 4 устроит.	game/code/cinquain.rpy	137
+dop2_d16f33d0	snkw	Ну и ладно!	game/code/cinquain.rpy	138
+dop2_5956eb5b	anon	{b}УФФФФФ{/b}{w} Я просто терминатор какой-то!	game/code/cinquain.rpy	141
+dop2_14831f8b	snkw	[anon] остаётся с прежней оценкой.{w} Не смог синквейн рассказать, как так!	game/code/cinquain.rpy	144
