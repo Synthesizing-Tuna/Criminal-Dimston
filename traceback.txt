@@ -1,27 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/code/day1/back2kit.rpy", line 5, in script
-    "{#l}{color=#000}Привет! Тебе надо явиться в кит!{/color}"
-Exception: Could not find font u'code/sms/SFRegular.ttf'.
+While loading <'Image' u'haracters/delite/xxx.png'>:
+  File "game/code/day2/konus.rpy", line 159, in script
+    show delite xxx with fade
+IOError: Couldn't find file 'haracters/delite/xxx.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/day1/back2kit.rpy", line 5, in script
-    "{#l}{color=#000}Привет! Тебе надо явиться в кит!{/color}"
-  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
-    who(what, *args, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
-    **display_args)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/code/day2/konus.rpy", line 159, in script
+    show delite xxx with fade
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1356, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1481, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2227, in do_with
+    clear=clear)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3158, in interact_core
@@ -34,53 +28,41 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 180, in render
+    renpy.display.render.render(self.transitions[-1], width, height, 0, 0)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 361, in render
+    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/screen.py", line 669, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1124, in render
-    st, at)
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/image.py", line 500, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/image.py", line 306, in wrap_render
+    rend = render(child, w, h, st, at)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 925, in render
-    surf = render(d, width - x, rh, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/behavior.py", line 727, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1124, in render
-    st, at)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 1899, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 587, in __init__
-    glyphs = ts.glyphs(s, self)
-  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 240, in glyphs
-    fo = font.get_font(self.font, self.size, self.bold, self.italic, 0, self.antialias, self.vertical, self.hinting, layout.oversample)
-  File "/Users/Pedobear/Projects/RenPy/renpy/text/font.py", line 695, in get_font
-    face = load_face(fn)
-  File "/Users/Pedobear/Projects/RenPy/renpy/text/font.py", line 636, in load_face
-    raise Exception("Could not find font {0!r}.".format(orig_fn))
-Exception: Could not find font u'code/sms/SFRegular.ttf'.
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 580, in render
+    return cache.get(self, render=True)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 266, in get
+    surf = image.load()
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 625, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "/Users/Pedobear/Projects/RenPy/renpy/loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'haracters/delite/xxx.png'.
 
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
 Bled_Moon 0.5 Alpha
-Thu Dec 13 15:34:19 2018
+Thu Dec 13 21:24:42 2018

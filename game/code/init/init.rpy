@@ -128,7 +128,7 @@ image foma = "characters/foma/barrel.png"
 
 #Шавлюга
 image delite = "characters/delite/idle.png"
-image delite xxx = "haracters/delite/xxx.png"
+image delite xxx = "characters/delite/xxx.png"
 
 #Конус
 image con = "characters/staff/conidle.png"
