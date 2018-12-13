@@ -114,3 +114,8 @@ dmypy.json
 .pyre/
 *.icloud
 .DS_Store
+game/.DS_Store
+game/.DS_Store
+game/images/.DS_Store
+game/images/characters/.DS_Store
+.DS_Store
