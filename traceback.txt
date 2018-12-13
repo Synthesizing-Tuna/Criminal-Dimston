@@ -1,0 +1,86 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/code/day1/back2kit.rpy", line 5, in script
+    "{#l}{color=#000}Привет! Тебе надо явиться в кит!{/color}"
+Exception: Could not find font u'code/sms/SFRegular.ttf'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/code/day1/back2kit.rpy", line 5, in script
+    "{#l}{color=#000}Привет! Тебе надо явиться в кит!{/color}"
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
+    who(what, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
+    **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3158, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2075, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 487, in renpy.display.render.render_screen
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/screen.py", line 669, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1124, in render
+    st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 925, in render
+    surf = render(d, width - x, rh, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/behavior.py", line 727, in render
+    rv = super(Button, self).render(width, height, st, at)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1124, in render
+    st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 1899, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 587, in __init__
+    glyphs = ts.glyphs(s, self)
+  File "/Users/Pedobear/Projects/RenPy/renpy/text/text.py", line 240, in glyphs
+    fo = font.get_font(self.font, self.size, self.bold, self.italic, 0, self.antialias, self.vertical, self.hinting, layout.oversample)
+  File "/Users/Pedobear/Projects/RenPy/renpy/text/font.py", line 695, in get_font
+    face = load_face(fn)
+  File "/Users/Pedobear/Projects/RenPy/renpy/text/font.py", line 636, in load_face
+    raise Exception("Could not find font {0!r}.".format(orig_fn))
+Exception: Could not find font u'code/sms/SFRegular.ttf'.
+
+Darwin-18.2.0-x86_64-i386-64bit
+Ren'Py 7.1.3.1092
+Bled_Moon 0.5 Alpha
+Thu Dec 13 15:34:19 2018
