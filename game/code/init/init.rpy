@@ -23,6 +23,9 @@ init:
 
 #Бекграунды
 
+#Начало
+image bg molotok = "posters/poster1.jpg"
+
 #Столовка
 image bg dream = "bg/bahil_factory.jpg"
 image bg table = "bg/hell_1.png"

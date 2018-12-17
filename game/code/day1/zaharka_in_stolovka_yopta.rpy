@@ -1,3 +1,4 @@
+
 #Пробуждение
 label nottoday:
     stop music
@@ -21,7 +22,7 @@ label nottoday:
     "Откуда она здесь?!"
     snkw "Я не поняла, кто это гадости говорит? Ты, мразь такая?"
     anon "Нет, не я!"
-    snkw "Я слышала, что это ты, киник такой! Говори номер родителей, живо! Или пойдёшь к директору!"
+    snkw "Я слышала, что это ты, киник такой!{w} Говори номер родителей, живо!{w} Или пойдёшь к директору!"
     "Блять, что за день?{w} То уснул, то теперь она! Как выкрутиться?!"
     menu:
         "Бежать":
@@ -32,12 +33,15 @@ label nottoday:
             $hardmoodle = True
             jump snkwdown
         "Сказать номер":
-            $ rz += 2
+            $ rz -= 5
+            $hardmoodle = True
             menu:
                 "Свой":
+                    $ rz -= 5
                     $ cellyou = True
                     jump parents
                 "Родаков":
+                    $ rz += 2
                     $ cellparents = True
                     jump parents
         "Рассказать синквейн":
@@ -75,27 +79,108 @@ label snkw:
     anon "А можно рассказать синквейн?"
     snkw "Вообще чтоли страх потерял? Хотя, расскажи, прямо с ходу, на тему Философии! Хе-хе."
     anon "Эээээээ, щас."
-    anon "Cложное, правильное, мудрое"
-    anon "Думать, размышлять, знать"
-    anon "Философия - есть наука о познании жизни человека."
-    anon "Познание."
-    show snkw happy
-    snkw "Ну ничего себе ты молодец! На первый раз тебя прощаю. Но с тебя спрошу 80 философов, учти!"
-    $hardmoodle = False
-    anon "Спасибо, Екатерина Николаевна! До свидания!"
-    snkw "До Свидания!"
-    hide snkw
-    "Ебать пронесло. Аж не ожидал, что расскажу с ходу синквейн. Кодить не умею, зато синквейны составляю по-мастерски."
-    "Пойду в БК, что. Делать нечего, на паре она меня спросит про этих философов. А так скажу, что плохо стало."
-    stop music
-    scene bg grdr with fade
-    $mp("noice")
-    "Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь?"
-    kit "Ебучая гардеробщица."
-    kit "Чувак, тебе после столовки не хуёво случаем? А то мне да."
-    kit "Да..."
-    "Ну наконец-то она пришла."
-    jump kitout
+    $ time = 15
+    $ timer_range = 15
+    $ timer_jump = "goout"
+    show screen countdown
+    menu:
+        "Составляем синквейн!"
+        "1-1":
+            $ time = 0
+            $ timer_range = 0
+            hide screen countdown
+            hide snkw boom
+            show snkw akbar
+            snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+            jump goout
+        "Cложное, правильное, мудрое":
+            anon "Так..."
+            menu:
+                "С первым угадано."
+                "Думать, размышлять, знать":
+                    menu:
+                        "А ты хороший китёнок. Дальше."
+                        "3-1":
+                            $ time = 0
+                            $ timer_range = 0
+                            hide screen countdown
+                            hide snkw boom
+                            show snkw akbar
+                            snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                            jump goout
+                        "Философия - есть наука о познании жизни человека.":
+                            menu:
+                                "Почти!"
+                                "4-1":
+                                    $ time = 0
+                                    $ timer_range = 0
+                                    hide screen countdown
+                                    hide snkw boom
+                                    show snkw akbar
+                                    snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                                    jump goout
+                                "4-2":
+                                    $ time = 0
+                                    $ timer_range = 0
+                                    hide screen countdown
+                                    hide snkw boom
+                                    show snkw akbar
+                                    snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                                    jump goout
+                                "Познание.":
+                                    $ time = 0
+                                    $ timer_range = 0
+                                    hide screen countdown
+                                    show snkw happy
+                                    snkw "Ну ничего себе ты молодец! На первый раз тебя прощаю. Но с тебя спрошу 80 философов, учти!"
+                                    $hardmoodle = False
+                                    anon "Спасибо, Екатерина Николаевна! До свидания!"
+                                    snkw "До Свидания!"
+                                    hide snkw
+                                    "Ебать пронесло. Аж не ожидал, что расскажу с ходу синквейн. Кодить не умею, зато синквейны составляю по-мастерски."
+                                    "Пойду в БК, что. Делать нечего, на паре она меня спросит про этих философов. А так скажу, что плохо стало."
+                                    stop music
+                                    scene bg grdr with fade
+                                    $mp("noice")
+                                    "Да тут очередь пиздец! Сука, ебучая гардеробщица! Откуда такая очередь?"
+                                    kit "Ебучая гардеробщица."
+                                    kit "Чувак, тебе после столовки не хуёво случаем? А то мне да."
+                                    kit "Да..."
+                                    "Ну наконец-то она пришла."
+                                    jump kitout
+                        "3-3":
+                            $ time = 0
+                            $ timer_range = 0
+                            hide screen countdown
+                            hide snkw boom
+                            show snkw akbar
+                            snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                            jump goout
+                "2-2":
+                    $ time = 0
+                    $ timer_range = 0
+                    hide screen countdown
+                    hide snkw boom
+                    show snkw akbar
+                    snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                    jump goout
+                "2-3":
+                    $ time = 0
+                    $ timer_range = 0
+                    hide screen countdown
+                    hide snkw boom
+                    show snkw akbar
+                    snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+                    jump goout
+        "1-3":
+            $ time = 0
+            $ timer_range = 0
+            hide screen countdown
+            hide snkw boom
+            show snkw akbar
+            snkw "Я знала, что ты не сможешь, мразь. Пошли к директору!"
+            jump goout
+
 
 #Бег от Захарки
 label runbitch:

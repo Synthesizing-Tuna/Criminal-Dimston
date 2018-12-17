@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'haracters/delite/xxx.png'>:
-  File "game/code/day2/konus.rpy", line 159, in script
-    show delite xxx with fade
-IOError: Couldn't find file 'haracters/delite/xxx.png'.
+While running game code:
+  File "game/code/day1/dream.rpy", line 5, in script
+    show dp10 dream at left with moveinleft
+IgnoreLayers: 
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/day2/konus.rpy", line 159, in script
-    show delite xxx with fade
+  File "game/code/day1/dream.rpy", line 5, in script
+    show dp10 dream at left with moveinleft
   File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1356, in execute
     renpy.exports.with_statement(trans, paired)
   File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1481, in with_statement
@@ -18,51 +18,19 @@ Full traceback:
     clear=clear)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3158, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2075, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 487, in renpy.display.render.render_screen
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 180, in render
-    renpy.display.render.render(self.transitions[-1], width, height, 0, 0)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/image.py", line 500, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/image.py", line 306, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 580, in render
-    return cache.get(self, render=True)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 266, in get
-    surf = image.load()
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/im.py", line 625, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "/Users/Pedobear/Projects/RenPy/renpy/loader.py", line 576, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'haracters/delite/xxx.png'.
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3477, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 998, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 998, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 998, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/screen.py", line 705, in event
+    raise renpy.display.layout.IgnoreLayers()
+IgnoreLayers: 
 
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
 Bled_Moon 0.5 Alpha
-Thu Dec 13 21:24:42 2018
+Mon Dec 17 14:22:20 2018

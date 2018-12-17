@@ -3,15 +3,16 @@ label goout:
     scene bg kabdir
     show snkw akbar at left with easeinleft
     show pidor at right with easeinright
-    snkw "Валерий Иванович, я вам тут одного киника привела, отчислите его, он говорил гадости на официальном сайте 'Подслушано в стенах СПбКИТ'"
-    pidor "С удовольствием отчислю этого студента."
+    snkw "Валерий Иванович, я вам тут одного киника привела, отчислите его, он говорил гадости на официальном сайте 'Подслушано в стенах СПбКИТ', не составляет синквейны и матерится!{w} А ещё он плевал на Вашу машину!"
+    anon "Но это клеве..."
+    pidor "МОЛЧАТЬ! {w}С удовольствием отчислю этого студента."
     scene black with fade
     centered "Спустя 5 минут"
     scene bg kabdir
     show pidor at right
     show snkw akbar at left
     pidor "Приказ напечатан, ты ОТЧИСЛЕЕН! Можешь завтра не приходить!"
-    snkw "Иди отсюда, киник! Желаю, чтобы ты сдох от СПИДа."
+    snkw "Иди отсюда, киник! Желаю, чтобы ты сдох от СПИДа. {w} Гад! Подонок!"
     scene black with fade
     centered "Вы были отчислены, но вы можете поступить сюда ещё раз!"
     menu:
@@ -21,7 +22,7 @@ label goout:
             jump nottoday
         "Не поступать":
             scene black with fade
-            centered "Мудрое решение."
+            centered "Мудрое решение.{w} Кто знает, может это хорошая концовка?"
             centered "КОНЕЦ ИГРЫ!"
             stop music
             return
@@ -30,6 +31,8 @@ label goout:
 label pidorotch:
     show pidor at left with easeinleft
     pidor "Отчислен, можешь даже не приходить завтра. Пошли в кабинет."
+    anon "Но дайте..."
+    pidor "Тебе слово дали, а сейчас нет."
     scene kabdir with fade
     show pidor at center with fade
     pidor "Отчислен! Вот твои документы, катись отсюда."
