@@ -41,7 +41,7 @@ label poll:
             #"Захарка":
                 #block of code to run
             "Дирик":
-                jump dirpool
+                jump dirpool 
             #"Маркович":
 
             #"НН":
