@@ -64,6 +64,7 @@ image bg ceilingcrash = "bg/ceilingcrash.jpg"
 image bg sport = "bg/sport.png"
 image bg akt = "bg/akt.png"
 image bg pahom = "bg/pahom.jpg"
+image bg foma = "bg/seva.jpg"
 
 #БК
 image bg bk = "bg/bk.jpg"
@@ -169,6 +170,7 @@ define rp = 0 #Увожение пидора
 define rn = 0 #Увожение локалхоста
 define rm = 0 #Увожение марковича
 define rsh = 0 #Увожение шавлюги
+define rf = 0 #Увожение фомы
 define pidorsber = False #Видел ли анон пидора в сбере, только в первом дне, выводит в отчисление
 define smenka = False #Сдавал ли ты сменку, важно для Марковича
 define cellyou = False #Дал свой номер захарке
@@ -179,3 +181,11 @@ define moodle = 0 #Счетчик мудла, зависит оценка
 define dop = 0 #Счетчик составления синквейна
 define cons = False #Не надо садиться на конус, будет подсказка
 define medic = False #Медик тоже в курсе
+
+#Счетчик опроса
+define  pz= False #ответ Захаровой
+define  pb= False #ответ бахильника
+define  pn= False #ответ локалхоста
+define  pm= False #ответ марковича
+define  psh= False #ответ шавлюги
+define  pf= False #ответ фомы

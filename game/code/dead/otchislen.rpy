@@ -92,3 +92,21 @@ label delite:
             centered "КОНЕЦ ИГРЫ!"
             stop music
             return
+
+#Пидор отчисляет за вопрос о пахоме
+label dirpool:
+    stop music
+    scene bg kabdir with fade
+    show pidor with easeinright
+    anon "Валерий Иванович, здравствуйте."
+    pidor "Чего тебе?"
+    anon "Я бы хотел спросить насчёт Пахомова. {w} Просто он мой дру..."
+    pidor "Отчислен нах!"
+    anon "Но поче..."
+    pidor "АААААТ-ЧИИИИ-СССС-ЛЕЕЕЕЕН"
+    "?????"
+    pidor "Отчислен! Вот твои документы, катись отсюда."
+    scene black with fade
+    centered "Вы были отчислены за неправильный выбор друзей."
+    pause
+    return
