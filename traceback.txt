@@ -1,21 +1,27 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'bg/seva.jpg'>:
-  File "game/code/day3/pool.rpy", line 13, in script
-    scene bg foma with fade
-IOError: Couldn't find file 'bg/seva.jpg'.
+While loading <'Image' u'bg/corridor.jpg'>:
+  File "game/code/day3/pool.rpy", line 6, in script
+    "У кого спрашивать..."
+IOError: Couldn't find file 'bg/corridor.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/day3/pool.rpy", line 13, in script
-    scene bg foma with fade
-  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1356, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1481, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2227, in do_with
-    clear=clear)
+  File "game/code/day3/pool.rpy", line 6, in script
+    "У кого спрашивать..."
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
+    who(what, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
+    **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3158, in interact_core
@@ -26,14 +32,6 @@ Full traceback:
   File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 180, in render
-    renpy.display.render.render(self.transitions[-1], width, height, 0, 0)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
@@ -60,9 +58,9 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "/Users/Pedobear/Projects/RenPy/renpy/loader.py", line 576, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'bg/seva.jpg'.
+IOError: Couldn't find file 'bg/corridor.jpg'.
 
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
 Bled_Moon 0.5 Alpha
-Fri Dec 21 15:49:33 2018
+Fri Dec 21 19:54:28 2018

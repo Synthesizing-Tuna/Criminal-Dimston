@@ -65,6 +65,8 @@ image bg sport = "bg/sport.png"
 image bg akt = "bg/akt.png"
 image bg pahom = "bg/pahom.jpg"
 image bg foma = "bg/seva.jpg"
+image bg corridor = "bg/corridor.jpg"
+image bg marsleep = "bg/sleep.jpg"
 
 #БК
 image bg bk = "bg/bk.jpg"
@@ -181,6 +183,7 @@ define moodle = 0 #Счетчик мудла, зависит оценка
 define dop = 0 #Счетчик составления синквейна
 define cons = False #Не надо садиться на конус, будет подсказка
 define medic = False #Медик тоже в курсе
+define ebony = 0 #Сколько раз ебали шавлюгу, когда был опрос Пахома
 
 #Счетчик опроса
 define  pz= False #ответ Захаровой

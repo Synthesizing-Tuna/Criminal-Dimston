@@ -1,34 +1,34 @@
-Fri Dec 21 15:49:10 2018
+Fri Dec 21 19:54:18 2018
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.00s
 Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata. took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.58s
+Loading save slot metadata. took 0.04s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
+Running init code took 0.12s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/Users/Pedobear/Library/RenPy/backups/Criminal-Dimston':
-Dump and make backups. took 0.12s
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.22s
+Creating interface object took 0.41s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.05s
-Prepare screens took 0.05s
+Analyze screens took 0.03s
+Save screen analysis took 0.10s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.08s
 Running _start took 0.00s
@@ -185,24 +185,30 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.36136889458s
+Total time until interface ready: 2.19484496117s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.019767 seconds.
-- Frame drawn at 0.036176 seconds.
-- Frame drawn at 0.053541 seconds.
-- Frame drawn at 0.068058 seconds.
-- 0.068058 seconds to render 5 frames.
+- Frame drawn at 0.021244 seconds.
+- Frame drawn at 0.035897 seconds.
+- Frame drawn at 0.052475 seconds.
+- Frame drawn at 0.067441 seconds.
+- 0.067441 seconds to render 5 frames.
 
 Full traceback:
-  File "game/code/day3/pool.rpy", line 13, in script
-    scene bg foma with fade
-  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1356, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1481, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2227, in do_with
-    clear=clear)
+  File "game/code/day3/pool.rpy", line 6, in script
+    "Ð£ ÐºÐ¾Ð³Ð¾ ÑÐ¿ÑÐ°ÑÐ¸Ð²Ð°ÑÑ..."
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
+    who(what, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
+    **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3158, in interact_core
@@ -213,14 +219,6 @@ Full traceback:
   File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 180, in render
-    renpy.display.render.render(self.transitions[-1], width, height, 0, 0)
-  File "render.pyx", line 147, in renpy.display.render.render
-  File "render.pyx", line 235, in renpy.display.render.render
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 147, in renpy.display.render.render
   File "render.pyx", line 235, in renpy.display.render.render
   File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 722, in render
@@ -247,9 +245,9 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "/Users/Pedobear/Projects/RenPy/renpy/loader.py", line 576, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'bg/seva.jpg'.
+IOError: Couldn't find file 'bg/corridor.jpg'.
 
-While loading <'Image' u'bg/seva.jpg'>:
-  File "game/code/day3/pool.rpy", line 13, in script
-    scene bg foma with fade
-IOError: Couldn't find file 'bg/seva.jpg'.
+While loading <'Image' u'bg/corridor.jpg'>:
+  File "game/code/day3/pool.rpy", line 6, in script
+    "Ð£ ÐºÐ¾Ð³Ð¾ ÑÐ¿ÑÐ°ÑÐ¸Ð²Ð°ÑÑ..."
+IOError: Couldn't find file 'bg/corridor.jpg'.
