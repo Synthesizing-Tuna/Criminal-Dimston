@@ -66,7 +66,7 @@ image bg akt = "bg/akt.png"
 image bg pahom = "bg/pahom.jpg"
 image bg foma = "bg/seva.jpg"
 image bg corridor = "bg/corridor.jpg"
-image bg marsleep = "bg/sleep.jpg"
+#image bg marsleep = "bg/sleep.jpg"
 
 #БК
 image bg bk = "bg/bk.jpg"

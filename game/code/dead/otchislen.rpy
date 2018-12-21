@@ -94,7 +94,7 @@ label delite:
             return
 
 #Пидор отчисляет за вопрос о пахоме
-label dirpool:
+label dirpoll:
     stop music
     scene bg kabdir with fade
     show pidor with easeinright

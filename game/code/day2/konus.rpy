@@ -183,4 +183,5 @@ label potolok:
                     $rsh -=5
                     anon "Извините, у меня дела. До свидания!"
                     stop music
+                    hide delite
                     jump eat

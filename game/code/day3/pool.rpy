@@ -1,4 +1,5 @@
 label poll:
+    stop music
     scene bg corridor with fade
     if (pz == True and pb == True and pn == True and pm == True and psh == True and pf == True):
         jump chasha
@@ -6,13 +7,13 @@ label poll:
         "У кого спрашивать..."
         menu:
             "Бочка":
-                if rf == False:
-                    $rf = True
-                    "Пойду к бочке!"
-                    "Он наверное у Матысик."
-                    stop music
-                    scene bg foma with fade
-                    show foma with moveintop
+                "Пойду к бочке!"
+                "Он наверное у Матысик."
+                stop music
+                scene bg foma with fade
+                show foma with moveintop
+                if pf == False:
+                    $pf = True
                     anon "Здрасьтитя!"
                     foma "Здарова! Чо хотел?"
                     anon "Да тут такое дело. {w} Мне надо узнать про Пахома. {w} Мне просто НН-ка сказал узнать про стопмоторную анимацию, а он в ней профи. Во как."
@@ -66,23 +67,22 @@ label poll:
                         snkw "Пошёл вон!"
                         "Ну нахуй тогда..."
                         hide snkw boom
-                        jump pool
+                        jump poll
                 else:
-                    scene bg kab302 with dissolve
                     "Бля, тут никого нет, да и спрашивал я её."
-                    jump pool
+                    jump poll
 
             "Дирик":
-                jump dirpool
+                jump dirpoll
 
             "Маркович":
                 if pm == False:
-                    $pm == True
-                    scene bg table5 with fade
+                    $pm = True
+                    scene bg table4 with fade
                     show general with dissolve
                     general "Чего тебе, э!"
                     anon "Мне бы про Пахома узнать, кто он?"
-                    if rm>=10:
+                    if rm>=0:
                         general "Он истинный патриот! Настоящий солдат нашей Родины! Поддерживает Путина и Армию!"
                         anon "А где он живет?"
                         general "Этого я не знаю."
@@ -93,7 +93,7 @@ label poll:
                         "Окей..."
                         jump poll
                 else:
-                    scene bg marsleep with fade
+                    #scene bg marsleep with fade
                     "Лол."
                     anon "РОТА, ПОДЪЕМ"
                     general "Э...Хррррррр...{w} Дай поспать....{w}Хррррррр..."
@@ -105,7 +105,7 @@ label poll:
                 show nn with fade
                 if pn == False:
                     anon "Здравствуйте. Можно ли у вас узнать про Пахома?"
-                    $pn == True
+                    $pn = True
                     if rn>=0:
                         nn "Конечно. Он странный какой-то."
                         nn "Когда я дала задание сделать интернет-магазин, он сделал сайт про Кольскую сверхглубокую скважину. {w} Он его потом попросил скинуть на дискету и отправить Почтой России в посёлок Чаща.{w} Больше ничего не знаю, он поехавший какой-то."
@@ -130,6 +130,7 @@ label poll:
             "Бахильник":
                 scene bg bahilass with fade
                 if pb == False:
+                    $pb = True
                     show bahilass
                     "Спрашивать бахильник, дожили."
                     anon "Бахильник, здорова!{w} Что ты знаешь про Пахома?"
@@ -146,7 +147,7 @@ label poll:
                         kits "Ты поехавший?"
                         anon "И ты иди нахуй."
                         hide bahilass
-                        jump pool
+                        jump poll
                 else:
                     anon "Бахильник!"
                     anon "Эй, блять!"
@@ -160,7 +161,7 @@ label poll:
                 show delite
                 anon "Здравствуйте!"
                 if psh == False:
-                    $psh == True
+                    $psh = True
                     delite "Привет, чего тебе?"
                     anon "Я хочу узнать про Пахома."
                     if rsh>=5:
@@ -199,3 +200,7 @@ label poll:
                             #Сюда потрачено
                             centered "Вы умерли от обезвоживания."
                             return
+                    else:
+                        delite "Убирайся отсюда!"
+                        hide delite
+                        jump poll
