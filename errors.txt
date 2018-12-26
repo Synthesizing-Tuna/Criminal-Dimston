@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/day3/pool.rpy", line 41: choice menuitem expects a non-empty block.
-    "Захарка":
-              ^
+File "game/code/day3/pool.rpy", line 7: reached end of line when expecting ':'.
+    if rm>=0
+            ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Fri Dec 21 15:46:28 2018
+Sun Dec 23 19:44:59 2018

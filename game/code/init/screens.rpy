@@ -52,6 +52,46 @@ screen say:
         add side_image
     else:
         add SideImage() xalign 0.0 yalign 1.0
+        
+    # обработка тегов смс
+    on "show" action SMS(what)
+    on "hide" action SetVariable("sms_last_what", del_tags(what))
+
+    style_prefix "say"
+
+    window:
+        # чтобы пустое окно не маячило
+        if not del_tags(what):
+            # а плавно исчезало
+            if sms_last_what:
+                at outout()
+            else:
+                # на старте было вообще невидимым
+                at transparent()
+        else:
+            if not sms_last_what:
+                # плавно появлялось, если появился видимый текст
+                at inin()
+            else:
+                # чтобы текстовое окно плавно появлялось и исчезало в остальных случаях
+                at inout()
+
+        id "window"
+
+        if who is not None:
+
+            window:
+                id "namebox"
+                style "namebox"
+                text who id "who"
+
+        text what id "what"
+
+    ## Если есть боковое изображение ("голова"), показывает её поверх текста.
+    ## По стандарту не показывается на варианте для мобильных устройств — мало
+    ## места.
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 1.0
 
 
 

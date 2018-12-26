@@ -1,22 +1,60 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/code/day3/pool.rpy", line 76, in script
-    jump dirpoll
-ScriptError: could not find label 'dirpoll'.
+  File "game/code/day1/dream.rpy", line 13, in script
+    dp10 "Честно говоря я не очень понимаю, что за блоггеры или блогеры.{w} В первый раз об этом слышу, ну нам с ними нам точно не по пути.{w} Если вас волнует оскорбления есть на всё суд там уже во время суда всё решается."
+Exception: Style u'namebox' does not exist.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/day3/pool.rpy", line 76, in script
-    jump dirpoll
-  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1633, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/Users/Pedobear/Projects/RenPy/renpy/script.py", line 875, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'dirpoll'.
+  File "game/code/day1/dream.rpy", line 13, in script
+    dp10 "Честно говоря я не очень понимаю, что за блоггеры или блогеры.{w} В первый раз об этом слышу, ну нам с ними нам точно не по пути.{w} Если вас волнует оскорбления есть на всё суд там уже во время суда всё решается."
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
+    who(what, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
+    **display_args)
+  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3059, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/screen.py", line 428, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 521, in visit_all
+    for d in self.visit():
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1068, in visit
+    self.style._visit_window(rv.append)
+  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
+  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 679, in renpy.style.build_style
+  File "style.pyx", line 142, in renpy.style.get_full_style
+  File "style.pyx", line 83, in renpy.style.get_style
+Exception: Style u'namebox' does not exist.
 
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
-Bled_Moon 0.5 Alpha
-Fri Dec 21 20:04:26 2018
+Bled_Moon ver. 1.1 Beta
+Sun Dec 23 20:29:45 2018

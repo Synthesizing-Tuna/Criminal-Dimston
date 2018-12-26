@@ -12,8 +12,8 @@ init -1 python hide:
     ## поставить False перед выпуском игры, чтобы
     ## пользователь не смог мошенничать, используя эти инструменты.
 
-    config.developer = False
-    config.console = False
+    config.developer = True
+    config.console = True
 
     ## Эти управляют шириной и высотой экрана.
 
@@ -28,7 +28,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "Bled_Moon"
-    config.version = "0.5 Alpha"
+    config.version = "ver. 1.1 Beta"
     config.hard_rollback_limit = 0
 
 
@@ -275,7 +275,7 @@ init -1 python hide:
 
     ## Запустить в полноэкранном режиме?
 
-    config.default_fullscreen = False
+    config.default_fullscreen = True
 
     ## Скорость текста по умолчанию, в знаках в секунду. 0 - бесконечность.
 
@@ -297,12 +297,12 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "Bled_Moon_Alpha"
+    build.directory_name = "Bled Moon v. 1.2 Beta"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
     ## users can click 'mygame.exe' to start the game.
-    build.executable_name = "BledMoon"
+    build.executable_name = "Bled Moon"
 
     ## If True, Ren'Py will include update information into packages. This
     ## allows the updater to run.
