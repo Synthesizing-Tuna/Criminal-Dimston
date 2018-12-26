@@ -1,4 +1,4 @@
-# sms.rpy by Руслан barsunduk Небыков
+﻿# sms.rpy by Руслан barsunduk Небыков
 # 10.04.2016 (доработано 19.06.2017) лизензия: CC0
 init:
     transform _a(alpha=0.0):
@@ -74,7 +74,7 @@ screen sms_screen:
                 yfill True
                 background None
         # заголовочная часть интерфейса, прячет верхние сообщения
-        add "code/init/sms/smscaption.png" align(-.045, .0) yoffset -115
+        add "code/init/sms/smstop.png" align(-.045, .0) yoffset -115
 
 # копия стандартного экрана say, с небольшими изменениями,
 # которые позволяют скрыть основное окно, если в тексте есть теги для смс
