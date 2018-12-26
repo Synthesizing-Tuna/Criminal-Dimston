@@ -1,60 +1,46 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/code/day1/dream.rpy", line 13, in script
-    dp10 "Честно говоря я не очень понимаю, что за блоггеры или блогеры.{w} В первый раз об этом слышу, ну нам с ними нам точно не по пути.{w} Если вас волнует оскорбления есть на всё суд там уже во время суда всё решается."
-Exception: Style u'namebox' does not exist.
+  File "game/code/day3/pool.rpy", line 217, in script
+    pause 10.0
+  File "renpy/common/000statements.rpy", line 414, in execute_pause
+    renpy.with_statement(Pause(delay))
+IOError: Couldn't find file 'sounds/sound/xxx.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/code/day1/dream.rpy", line 13, in script
-    dp10 "Честно говоря я не очень понимаю, что за блоггеры или блогеры.{w} В первый раз об этом слышу, ну нам с ними нам точно не по пути.{w} Если вас волнует оскорбления есть на всё суд там уже во время суда всё решается."
-  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 678, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1229, in say
-    who(what, *args, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 1031, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 823, in do_display
-    **display_args)
-  File "/Users/Pedobear/Projects/RenPy/renpy/character.py", line 572, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/Pedobear/Projects/RenPy/renpy/ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/code/day3/pool.rpy", line 217, in script
+    pause 10.0
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1861, in execute
+    self.call("execute")
+  File "/Users/Pedobear/Projects/RenPy/renpy/ast.py", line 1849, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/Users/Pedobear/Projects/RenPy/renpy/statements.py", line 203, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 414, in execute_pause
+    renpy.with_statement(Pause(delay))
+  File "/Users/Pedobear/Projects/RenPy/renpy/exports.py", line 1481, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2227, in do_with
+    clear=clear)
   File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3059, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/screen.py", line 428, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 531, in visit_all
-    d.visit_all(callback, seen)
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 521, in visit_all
-    for d in self.visit():
-  File "/Users/Pedobear/Projects/RenPy/renpy/display/layout.py", line 1068, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 679, in renpy.style.build_style
-  File "style.pyx", line 142, in renpy.style.get_full_style
-  File "style.pyx", line 83, in renpy.style.get_style
-Exception: Style u'namebox' does not exist.
+  File "/Users/Pedobear/Projects/RenPy/renpy/display/core.py", line 3344, in interact_core
+    renpy.audio.audio.periodic()
+  File "/Users/Pedobear/Projects/RenPy/renpy/audio/audio.py", line 993, in periodic_thread_main
+    periodic_pass()
+  File "/Users/Pedobear/Projects/RenPy/renpy/audio/audio.py", line 937, in periodic_pass
+    c.periodic()
+  File "/Users/Pedobear/Projects/RenPy/renpy/audio/audio.py", line 419, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "/Users/Pedobear/Projects/RenPy/renpy/audio/audio.py", line 71, in load
+    rv = renpy.loader.load(fn)
+  File "/Users/Pedobear/Projects/RenPy/renpy/loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'sounds/sound/xxx.mp3'.
 
 Darwin-18.2.0-x86_64-i386-64bit
 Ren'Py 7.1.3.1092
 Bled_Moon ver. 1.1 Beta
-Sun Dec 23 20:29:45 2018
+Wed Dec 26 16:30:16 2018

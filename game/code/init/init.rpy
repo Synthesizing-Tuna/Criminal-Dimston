@@ -135,6 +135,7 @@ image foma = "characters/foma/barrel.png"
 #Шавлюга
 image delite = "characters/delite/idle.png"
 image delite xxx = "characters/delite/xxx.png"
+image bg delite sex = "bg/shavluga_sex.jpg"
 
 #Конус
 image con = "characters/staff/conidle.png"

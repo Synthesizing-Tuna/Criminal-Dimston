@@ -183,8 +183,15 @@ label poll:
                         anon "Какую?"
                         delite "Я хочу, чтобы ты выебал меня, как последнюю шлюху!"
                         "Ну хули делать..."
-                        #ебля с шавлюгой
+                        hide delite
+                        scene bg delite sex with fade
+                        $mp("xxx")
+                        pause 10.0
                         anon "О даааааа!"
+                        stop music
+                        scene bg sport with fade
+                        $mp("sport")
+                        show delite
                         anon "Так что там про Пахома?"
                         delite "А, аххх. {w} Точно. Он ко мне на пары не приходил, неспортивный он. {w}Ты его с легкостью победишь, зая."
                         "Ебать полезно! Но зато поебался."
@@ -204,8 +211,15 @@ label poll:
                             $ebony +=1
                             delite "Привет, родной!{w} Повторим?"
                             anon "Да!"
-                            #Дрочка
-                            anon "О, дааааа, детка!"
+                            hide delite
+                            scene bg delite sex with fade
+                            $mp("xxx")
+                            pause 10.0
+                            anon "О даааааа, детка!"
+                            stop music
+                            scene bg sport with fade
+                            $mp("sport")
+                            show delite
                             hide delite
                             jump poll
                         else:
