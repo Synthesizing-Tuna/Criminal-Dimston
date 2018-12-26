@@ -120,3 +120,5 @@ game/images/.DS_Store
 game/images/characters/.DS_Store
 .DS_Store
 game/images/.DS_Store
+*.save
+game/saves/persistent
