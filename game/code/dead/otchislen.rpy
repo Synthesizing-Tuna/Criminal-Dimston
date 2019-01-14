@@ -110,7 +110,3 @@ label dirpoll:
     centered "Вы были отчислены за неправильный выбор друзей."
     pause
     return
-
-#Отчисление в электричке, 3й день
-label electron_d:
-    

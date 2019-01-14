@@ -88,10 +88,6 @@ image bg kolsk4 = "bg/kolsk_proof_4.jpg"
 image bg kolskalt1 = "bg/kolsk_proof_alt1.jpg"
 image bg kolskalt2 = "bg/kolsk_proof_alt2.jpg"
 
-#Электрон, Чаща
-image bg electron1 = "bg/electron1.jpg"
-image bg electron2 = "bg/electron2.jpg"
-
 
 #Изображения персонажей
 
