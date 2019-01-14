@@ -67,6 +67,7 @@ image bg pahom = "bg/pahom.jpg"
 image bg foma = "bg/seva.jpg"
 image bg corridor = "bg/corridor.jpg"
 #image bg marsleep = "bg/sleep.jpg"
+image bg stolen = "bg/stolen.jpg"
 
 #БК
 image bg bk = "bg/bk.jpg"
@@ -91,6 +92,10 @@ image bg kolskalt2 = "bg/kolsk_proof_alt2.jpg"
 #Электрон, Чаща
 image bg electron1 = "bg/electron1.jpg"
 image bg electron2 = "bg/electron2.jpg"
+image bg chasha_trainstop = "bg/chasha_trainstop.jpg"
+image bg chasha1 = "bg/chasha1.jpg"
+image bg chasha2 = "bg/chasha2.jpg"
+image bg chasha3 = "bg/chasha3.jpg"
 
 
 #Изображения персонажей
@@ -145,6 +150,14 @@ image bg delite sex = "bg/shavluga_sex.jpg"
 image con = "characters/staff/conidle.png"
 image con shit = "characters/staff/conshit.png"
 
+#Чаща
+image chasha1 = "characters/chasha/person1.png"
+image chasha2 = "characters/chasha/person2.png"
+image chasha3 = "characters/chasha/person3.png"
+
+#Максон
+image maxon = "characters/maxon/idle.png"
+
 
 #Определение персонажей игры.
 define anon = Character("[anon]", color="#c8ffc8")
@@ -170,6 +183,10 @@ define delite = Character('Шавлюга')
 define con = Character('Конус')
 define goose = Character('Гусельников')
 define table = Character('Буфетчица')
+define name = Character("[name]")
+define gr_name = Character("[gr_name]")
+define chasha = Character("Чащиец")
+define maxon = Character("Максон")
 
 #Счётчики
 define rz = 0 #Увожение Захаровой
@@ -189,6 +206,7 @@ define dop = 0 #Счетчик составления синквейна
 define cons = False #Не надо садиться на конус, будет подсказка
 define medic = False #Медик тоже в курсе
 define ebony = 0 #Сколько раз ебали шавлюгу, когда был опрос Пахома
+define solaris = False #Сдаем дирика ментам за парковку
 
 #Счетчик опроса
 define  pz= False #ответ Захаровой
