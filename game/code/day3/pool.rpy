@@ -223,9 +223,11 @@ label poll:
                             hide delite
                             jump poll
                         else:
-                            scene black with fade
+                            scene bg delite sex with fade
+                            $mp("xxx")
                             anon "Уааааааааааа...."
-                            #Сюда потрачено
+                            scene black with fade
+                            $sp ("gta")
                             centered "Вы умерли от обезвоживания."
                             return
                     else:
